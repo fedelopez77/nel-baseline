@@ -8,21 +8,34 @@ This module assumes that the folder with the Stanford NER is located in STANFORD
 (path/to/nel-baseline/stanford-ner by default)
 
 The output format can be changed from the parameter -outputFormat
-Available options in https://nlp.stanford.edu/software/crf-faq.html#j
+Available options are: inlineXML, xml, tsv, tabbedEntities, slashTags
+See https://nlp.stanford.edu/software/crf-faq.html#j
 """
 
 import os
 import subprocess
 
 STANFORD_PATH = "stanford-ner"
+
+THREE_CLASS_CLASSIFIER = "classifiers/english.all.3class.distsim.crf.ser.gz"
+FOUR_CLASS_CLASSIFIER = "classifiers/english.conll.4class.distsim.crf.ser.gz"
+SEVEN_CLASS_CLASSIFIER = "english.muc.7class.distsim.crf.ser.gz"
+
+classifiers = {
+    3: THREE_CLASS_CLASSIFIER,
+    4: FOUR_CLASS_CLASSIFIER,
+    7: SEVEN_CLASS_CLASSIFIER
+}
+
 NER_COMMAND = "java -mx600m -cp stanford-ner.jar:lib/* edu.stanford.nlp.ie.crf.CRFClassifier " \
-              "-loadClassifier classifiers/english.all.3class.distsim.crf.ser.gz -outputFormat inlineXML " \
-              "-textFile {}"
+              "-loadClassifier {classifier} -outputFormat {output_format} -textFile {text_file}"
 
 
-def detect(source_file, target_file="output-ner.tsv"):
+def detect(source_file, target_file="output-ner", classes=3, output_format="tabbedEntities"):
     stanford_ner_path = os.path.join(os.getcwd(), STANFORD_PATH)
     file_path = os.path.join(os.getcwd(), source_file)
+
+    command = NER_COMMAND.format(classifier=classifiers[classes], output_format=output_format, text_file=file_path)
+
     with open(target_file, 'w') as f:
-        subprocess.run(NER_COMMAND.format(file_path), shell=True, stdout=f, stderr=subprocess.DEVNULL,
-                       cwd=stanford_ner_path)
+        subprocess.run(command, shell=True, stdout=f, stderr=subprocess.DEVNULL, cwd=stanford_ner_path)
