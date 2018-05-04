@@ -99,3 +99,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# venv
+venv/
+
+# idea
+.idea/
+
+# stanford ner
+stanford-ner/
+stanford-ner
