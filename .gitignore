@@ -106,6 +106,6 @@ venv/
 # idea
 .idea/
 
-# stanford ner
-stanford-ner/
-stanford-ner
+# stanford core
+stanford-core/
+stanford-core
