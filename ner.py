@@ -34,7 +34,7 @@ STANFORD_COMMAND = 'java -cp "*" -Xmx2g edu.stanford.nlp.pipeline.StanfordCoreNL
                    '-annotators tokenize,ssplit,pos,lemma,ner,parse -outputFormat {output_format} -file {text_file}'
 
 
-def detect(source_file, output_format="conll"):
+def detect(source_file, output_format="xml"):
     stanford_ner_path = os.path.join(os.getcwd(), STANFORD_PATH)
     file_path = os.path.join(os.getcwd(), source_file)
     output_file = source_file + "." + output_format

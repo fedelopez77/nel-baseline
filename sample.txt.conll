@@ -85,3 +85,37 @@
 39	Jr.	Jr.	NNP	PERSON	23	conj
 40	.	.	.	O	4	punct
 
+1	This	this	DT	O	2	det
+2	sample	sample	NN	O	4	nsubjpass
+3	was	be	VBD	O	4	auxpass
+4	taken	take	VBN	O	0	ROOT
+5	on	on	IN	O	8	case
+6	the	the	DT	O	8	det
+7	23th	23th	JJ	DATE	8	amod
+8	May	May	NNP	DATE	4	nmod
+9	,	,	,	DATE	8	punct
+10	2017	2017	CD	DATE	8	amod
+11	,	,	,	O	4	punct
+12	and	and	CC	O	4	cc
+13	here	here	RB	O	16	advmod
+14	we	we	PRP	O	16	nsubj
+15	can	can	MD	O	16	aux
+16	put	put	VB	O	4	conj
+17	more	more	RBR	O	16	advmod
+18	numbers	number	NNS	O	16	dobj
+19	,	,	,	O	18	punct
+20	like	like	IN	O	22	case
+21	40	40	CD	PERCENT	22	nummod
+22	%	%	NN	PERCENT	18	nmod
+23	of	of	IN	O	24	case
+24	people	people	NNS	O	22	nmod
+25	reading	read	VBG	O	24	acl
+26	this	this	DT	O	30	nsubj
+27	really	really	RB	O	30	advmod
+28	do	do	VBP	O	30	aux
+29	n't	not	RB	O	30	neg
+30	care	care	VB	O	25	ccomp
+31	at	at	IN	O	32	case
+32	all	all	DT	O	30	nmod
+33	.	.	.	O	4	punct
+
