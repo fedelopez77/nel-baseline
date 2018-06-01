@@ -46,4 +46,4 @@ def detect(source_file, output_format="conll"):
     subprocess.run("mv {} {}".format(output_file, os.getcwd()), shell=True, cwd=stanford_ner_path)
 
 
-detect("sample.txt")
+# detect("sample.txt")
