@@ -109,3 +109,6 @@ venv/
 # stanford core
 stanford-core/
 stanford-core
+
+# datasets
+dataset/ACE2004_Coref_Turking/
