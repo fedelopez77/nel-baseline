@@ -1,0 +1,12 @@
+20180604-155153	EL-0	Lehman Brothers	sample.txt:12-27	https://en.wikipedia.org/wiki/Lehman_Brothers	ORG	NAM	1.0
+20180604-155153	EL-1	Federal Reserve	sample.txt:95-110	https://en.wikipedia.org/wiki/Federal_Reserve_System	ORG	NAM	1.0
+20180604-155153	EL-2	Federal Reserve Bank of New York	sample.txt:326-358	https://en.wikipedia.org/wiki/Federal_Reserve_Bank_of_New_York	ORG	NAM	1.0
+20180604-155153	EL-3	Timothy R. Geithner	sample.txt:370-389	NIL3	PER	NAM	1.0
+20180604-155153	EL-4	president	sample.txt:395-404	https://en.wikipedia.org/wiki/President	PER	NAM	1.0
+20180604-155153	EL-5	New York Fed	sample.txt:412-424	https://en.wikipedia.org/wiki/Federal_Reserve_Bank_of_New_York	ORG	NAM	1.0
+20180604-155153	EL-6	Treasury Secretary	sample.txt:430-448	https://en.wikipedia.org/wiki/United_States_Secretary_of_the_Treasury	PER	NAM	1.0
+20180604-155153	EL-7	Henry M. Paulson Jr.	sample.txt:449-468	https://en.wikipedia.org/wiki/Henry_Paulson	PER	NAM	1.0
+20180604-155153	EL-8	Junin	sample.txt:671-676	https://en.wikipedia.org/wiki/Jun%C3%ADn	LOC	NAM	1.0
+20180604-155153	EL-9	Buenos Aires	sample.txt:678-690	https://en.wikipedia.org/wiki/Buenos_Aires	LOC	NAM	1.0
+20180604-155153	EL-10	Province	sample.txt:691-699	https://en.wikipedia.org/wiki/Province	LOC	NAM	1.0
+20180604-155153	EL-11	Argentina	sample.txt:703-712	https://en.wikipedia.org/wiki/Argentina	LOC	NAM	1.0
