@@ -45,5 +45,7 @@ def detect(source_file, output_format="xml"):
 
     subprocess.run("mv {} {}".format(output_file, os.getcwd()), shell=True, cwd=stanford_ner_path)
 
+    return source_file + "." + output_format
+
 
 # detect("sample.txt")

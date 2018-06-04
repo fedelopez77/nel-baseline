@@ -6,57 +6,115 @@ If it finds a candidate article (any article), it assigns it to the entity.
 If it doesn't, it classifies the entity as NIL.
 """
 
-import wptools
+import datetime
+import argparse
+import logging
 import xml.etree.ElementTree as ET
-from model import Mention
+import wptools
+from model import Mention, Entry, LinkedMention
+from ner import detect as apply_ner
 
 IGNORED_ENTITY_TYPES = {"ORDINAL", "NUMBER", "DATE", "PERCENT"}
+
+# create logger
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+# create console handler and set level to debug
+ch = logging.StreamHandler()
+ch.setLevel(logging.DEBUG)
+
+ch.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+logger.addHandler(ch)
 
 
 class MentionDetector:
 
     def __init__(self, file_name):
         self.file_name = file_name
-
+        self.doc_id = None
 
     def get_mentions(self):
         tree = ET.parse(self.file_name)
-        root = tree.getroot()
+        doc = tree.getroot()[0]
 
-        doc_id = root[0].find("docId").text
+        self.doc_id = doc.find("docId").text
 
         result = []
         previous_type = None
 
-        for sentence in root[0].find("sentences"):
+        for sentence in doc.find("sentences"):
             for token in sentence[0]:
-                entity_type = token.find("NER")
+                entity_type = token.find("NER").text
 
                 if entity_type != 'O' and entity_type not in IGNORED_ENTITY_TYPES:
-                    mention = create_mention(token)
-
                     if entity_type == previous_type:
-                        result[-1].add(mention)
+                        head_string, end_offset = self.get_head_string_and_offset(token)
+                        result[-1].add(head_string, end_offset)
                     else:
+                        mention = self.create_mention(token)
                         result.append(mention)
 
                 previous_type = entity_type
 
         return result
 
-    @staticmethod
-    def create_mention(line):
-        pass
+    def create_mention(self, token):
+        head_string = token.find("word").text
+        begin = token.find("CharacterOffsetBegin").text
+        end = token.find("CharacterOffsetEnd").text
+        entity_type = token.find("NER").text
+        return Mention(head_string, self.doc_id, begin, end, entity_type)
+
+    def get_head_string_and_offset(self, token):
+        head_string = token.find("word").text
+        end = token.find("CharacterOffsetEnd").text
+        return head_string, end
 
 
 def link_mentions(mentions):
     result = []
     for mention in mentions:
         try:
-            page = wptools.page(mention.string).get_query()
+            entry = Entry(wptools.page(mention.head_string).get_query())
         except LookupError:
-            page = None
+            entry = Entry(None)
 
-        result.append(LinkedMention(mention, page))
+        result.append(LinkedMention(mention, entry))
 
     return result
+
+
+def get_run_id():
+    now = datetime.datetime.now()
+    return now.strftime("%Y%m%d-%H%M%S")
+
+
+def export_linked_mentions(file_name, linked_mentions):
+    run_id = get_run_id()
+    with open(file_name + ".tab", "w+") as f:
+        for linked_mention in linked_mentions:
+            line = "{}\t{}\n".format(run_id, str(linked_mention))
+            logger.debug(line)
+            f.write(line)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Executes NEL Baseline.')
+    parser.add_argument('-f', '--file', required=True, help='Input raw text file')
+
+    args = parser.parse_args()
+
+    logger.info("Applying NER on file {}".format(args.file))
+    ner_file = apply_ner(args.file)
+
+    logger.info("Detecting mentions from XML File")
+    md = MentionDetector(ner_file)
+    mentions = md.get_mentions()
+
+    logger.info("Linking mentions to wikipedia articles")
+    linked_mentions = link_mentions(mentions)
+
+    logger.info("Exporting mentions to tab file")
+    export_linked_mentions(args.file, linked_mentions)
+
