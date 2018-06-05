@@ -9,12 +9,15 @@ If it doesn't, it classifies the entity as NIL.
 import datetime
 import argparse
 import logging
+from os import listdir
+from os.path import join
+from sys import exit
 import xml.etree.ElementTree as ET
 import wptools
 from model import Mention, Entry, LinkedMention
 from ner import detect as apply_ner
 
-IGNORED_ENTITY_TYPES = {"ORDINAL", "NUMBER", "DATE", "PERCENT"}
+IGNORED_ENTITY_TYPES = {"ORDINAL", "NUMBER", "DATE", "PERCENT", "DURATION"}
 
 # create logger
 logger = logging.getLogger(__name__)
@@ -62,7 +65,7 @@ class MentionDetector:
     def create_mention(self, token):
         head_string = token.find("word").text
         begin = token.find("CharacterOffsetBegin").text
-        end = token.find("CharacterOffsetEnd").text
+        end = str(int(token.find("CharacterOffsetEnd").text) - 1)   # StanfordNER offsets is exclusive (adds one extra char at the end)
         entity_type = token.find("NER").text
         return Mention(head_string, self.doc_id, begin, end, entity_type)
 
@@ -101,20 +104,35 @@ def export_linked_mentions(file_name, linked_mentions):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Executes NEL Baseline.')
-    parser.add_argument('-f', '--file', required=True, help='Input raw text file')
+    parser.add_argument('-r', '--raw', help='Input raw text file')
+    parser.add_argument('-x', '--xml', help='Input NER xml file')
+    parser.add_argument('-xd', '--xmldir', help='Input NER xml directory')
 
     args = parser.parse_args()
 
-    logger.info("Applying NER on file {}".format(args.file))
-    ner_file = apply_ner(args.file)
+    if args.raw is None and args.xml is None and args.xmldir is None:
+        parser.print_usage()
+        exit(0)
 
-    logger.info("Detecting mentions from XML File")
-    md = MentionDetector(ner_file)
-    mentions = md.get_mentions()
+    ner_files = []
+    if args.raw is not None:
+        logger.info("Applying NER on file {}".format(args.raw))
+        ner_files.append(apply_ner(args.raw))
+
+    if args.xml is not None:
+        ner_files.append(args.xml)
+
+    if args.xmldir is not None:
+        ner_files.extend([join(args.xmldir, filename) for filename in listdir(args.xmldir)])
+
+    logger.info("Detecting mentions from XML Files")
+    mentions = []
+    for ner_file in ner_files:
+        md = MentionDetector(ner_file)
+        mentions.extend(md.get_mentions())
 
     logger.info("Linking mentions to wikipedia articles")
     linked_mentions = link_mentions(mentions)
 
     logger.info("Exporting mentions to tab file")
-    export_linked_mentions(args.file, linked_mentions)
-
+    export_linked_mentions("res-"+get_run_id(), linked_mentions)

@@ -30,7 +30,8 @@ python -m neleval prepare-tac15 $gtab $options | awk -F'\t' "$cleanup_cmd" > $go
 
 # convert systems to evaluation format
 echo "INFO converting systems to evaluation format.."
-my_results=$outdir/$sysfile.combined.tsv
+sys_file_name=$(basename -- "$sysfile")
+my_results=$outdir/$sys_file_name.combined.tsv
 python -m neleval prepare-tac15 $sysfile $options | awk -F'\t' "$cleanup_cmd" > $my_results
 
 # EVALUATE

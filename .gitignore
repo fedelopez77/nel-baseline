@@ -112,3 +112,7 @@ stanford-core
 
 # datasets
 dataset/ACE2004_Coref_Turking/
+dataset/ace2004/
+
+# results
+res*

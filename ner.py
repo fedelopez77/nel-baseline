@@ -12,7 +12,8 @@ Available options are: inlineXML, xml, tsv, tabbedEntities, slashTags
 See https://nlp.stanford.edu/software/crf-faq.html#j
 """
 
-import os
+from os import getcwd, remove, listdir
+from os.path import join, basename, isfile
 import subprocess
 
 STANFORD_PATH = "stanford-core"
@@ -31,21 +32,48 @@ STANFORD_PATH = "stanford-core"
 #               "-loadClassifier {classifier} -outputFormat {output_format} -textFile {text_file}"
 
 STANFORD_COMMAND = 'java -cp "*" -Xmx2g edu.stanford.nlp.pipeline.StanfordCoreNLP ' \
-                   '-annotators tokenize,ssplit,pos,lemma,ner,parse -outputFormat {output_format} -file {text_file}'
+                   '-annotators tokenize,ssplit,pos,lemma,ner,parse -outputFormat {output_format} -filelist {file_list}'
+
+TMP_FILE_LIST = "filelist.tmp.txt"
 
 
-def detect(source_file, output_format="xml"):
-    stanford_ner_path = os.path.join(os.getcwd(), STANFORD_PATH)
-    file_path = os.path.join(os.getcwd(), source_file)
-    output_file = source_file + "." + output_format
-
-    command = STANFORD_COMMAND.format(output_format=output_format, text_file=file_path)
-
-    subprocess.run(command, shell=True, stderr=subprocess.DEVNULL, cwd=stanford_ner_path)
-
-    subprocess.run("mv {} {}".format(output_file, os.getcwd()), shell=True, cwd=stanford_ner_path)
-
-    return source_file + "." + output_format
+def write_filelist(files, stanford_ner_path):
+    cwd = getcwd()
+    with open(join(stanford_ner_path, TMP_FILE_LIST), 'w+') as f:
+        for file_name in files:
+            file_path = join(cwd, file_name) + "\n"
+            f.write(file_path)
 
 
-# detect("sample.txt")
+def detect(files, output_format="xml", output_dir=None):
+    """
+    :param files: <list>
+    :param output_format:
+    :return: list of files with NER result
+    """
+    stanford_ner_path = join(getcwd(), STANFORD_PATH)
+    write_filelist(files, stanford_ner_path)
+
+    print("Processing NER")
+    command = STANFORD_COMMAND.format(output_format=output_format, file_list=TMP_FILE_LIST)
+    subprocess.run(command, shell=True, stderr=subprocess.STDOUT, cwd=stanford_ner_path)
+    remove(join(stanford_ner_path, TMP_FILE_LIST))
+
+    output_files = [basename(file_name) + "." + output_format for file_name in files]
+    print(output_files)
+    all_output_files = " ".join(output_files)
+    output_dir = getcwd() if output_dir is None else output_dir
+    subprocess.run("mv -t {} {}".format(output_dir, all_output_files), shell=True, cwd=stanford_ner_path)
+
+    return output_files
+
+
+# detect(["example_data/sample.txt", "example_data/sample2.txt"])
+
+# dataset_path = join(getcwd(), "dataset/ace2004/rawTexts/")
+# files_to_process = []
+# for file in [filename for filename in listdir(dataset_path) if isfile(join(dataset_path, filename))]:
+#     files_to_process.append(join(dataset_path, file))
+#
+# detect(files_to_process, output_dir=join(getcwd(), "ner_results"))
+

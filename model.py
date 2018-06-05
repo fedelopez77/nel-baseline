@@ -4,15 +4,18 @@ class EntityTypeBuilder:
     PERSON = "PER"
     ORGANIZATION = "ORG"
     LOCATION = "LOC"
-
     _entities = {
         "PERSON": PERSON,
         "TITLE": PERSON,
         "ORGANIZATION": ORGANIZATION,
+        "MISC": ORGANIZATION,               ## QUE ES MISC?
         "LOCATION": LOCATION,
         "CITY": LOCATION,
-        "COUNTRY": LOCATION
+        "STATE_OR_PROVINCE": LOCATION,
+        "COUNTRY": LOCATION,
+        "NATIONALITY": LOCATION             ## QUE ES NATIONALITY? GPE???
     }
+
 
     @classmethod
     def get(cls, type_name):
@@ -35,8 +38,8 @@ class Mention:
         """
         self.head_string = head_string
         self.doc_id = doc_id
-        self.begin = begin
-        self.end = end
+        self.begin = int(begin)
+        self.end = int(end)
         self.entity_type = EntityTypeBuilder.get(entity_type)
         self.mention_type = mention_type
         self.id = "EL-" + str(Mention._id)
@@ -75,7 +78,8 @@ class Entry:
     def __str__(self):
         if self.is_nil():
             return "NIL" + str(self.id)
-        return self.page.data["url"]
+        url = self.page.data["url"]
+        return url[:4] + url[5:]    # removes s from https to comply with ACE data
 
 
 class LinkedMention:
@@ -104,4 +108,4 @@ class LinkedMention:
         )
 
     def __repr__(self):
-        return "{} - {}".format(self.mention.head_string, self.entry.id)
+        return "{} - {}".format(self.mention.head_string, self.entry)
