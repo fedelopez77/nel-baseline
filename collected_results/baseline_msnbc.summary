@@ -1,0 +1,7 @@
+right	wrong	right	expcted	
+ptp	fp	rtp	fn	precis	recall	fscore	measure
+587	147	587	168	0.800	0.777	0.788	strong_mention_match	Detected mentions with right span
+226	426	226	521	0.347	0.303	0.323	strong_link_match	Right linked mentions only
+1	81	1	7	0.012	0.125	0.022	strong_nil_match	Right NIL detection only
+227	507	227	528	0.309	0.301	0.305	strong_all_match	Right linked mentions and NIL detections
+169	188	169	211	0.473	0.445	0.459	entity_match	Right Micro-averaged document-level set-of-links (repeated links count only once)

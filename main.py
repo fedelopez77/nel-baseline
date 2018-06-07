@@ -32,6 +32,8 @@ logger.addHandler(ch)
 class MentionDetector:
 
     IGNORED_ENTITY_TYPES = {"ORDINAL", "NUMBER", "DATE", "PERCENT", "MONEY", "DURATION", "CAUSE_OF_DEATH", "SET",
+                            "TIME", "URL", "IDEOLOGY", "CRIMINAL_CHARGE",
+                            "RELIGION", # Ver si no se toma como ORG
                             "TITLE"}    # Title is an special case, because given coreference I should use it
                                         # but for this baseline, it doesn't make sense
 
