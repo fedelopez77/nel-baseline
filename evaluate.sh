@@ -37,3 +37,23 @@ python -m neleval prepare-tac15 $sysfile $options | awk -F'\t' "$cleanup_cmd" > 
 # EVALUATE
 echo "INFO Evaluating systems.."
 python -m neleval evaluate -m all -f tab -g $gold $my_results > $outdir/results.evaluation
+
+
+echo "INFO Creating summary of results"
+echo -e "right\twrong\tright\texpcted\t" > $outdir/summary.evaluation
+grep -e 'measure'  $outdir/results.evaluation >> $outdir/summary.evaluation
+
+filter="$(grep -e strong_mention_match $outdir/results.evaluation)"
+echo -e "$filter\tDetected mentions with right span" >> $outdir/summary.evaluation
+
+filter="$(grep -e strong_link_match $outdir/results.evaluation)"
+echo -e "$filter\tRight linked mentions only" >> $outdir/summary.evaluation
+
+filter="$(grep -e strong_nil_match $outdir/results.evaluation)"
+echo -e "$filter\tRight NIL detection only" >> $outdir/summary.evaluation
+
+filter="$(grep -e strong_all_match $outdir/results.evaluation)"
+echo -e "$filter\tRight linked mentions and NIL detections" >> $outdir/summary.evaluation
+
+filter="$(grep -e entity_match $outdir/results.evaluation)"
+echo -e "$filter\tRight Micro-averaged document-level set-of-links (repeated links count only once)" >> $outdir/summary.evaluation

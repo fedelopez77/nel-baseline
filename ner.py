@@ -68,12 +68,12 @@ def detect(files, output_format="xml", output_dir=None):
     return output_files
 
 
-# detect(["example_data/sample.txt", "example_data/sample2.txt"])
-
-# dataset_path = join(getcwd(), "dataset/ace2004/rawTexts/")
+# dataset_path = join(getcwd(), "dataset/MSNBC/rawTexts/")
 # files_to_process = []
 # for file in [filename for filename in listdir(dataset_path) if isfile(join(dataset_path, filename))]:
 #     files_to_process.append(join(dataset_path, file))
 #
 # detect(files_to_process, output_dir=join(getcwd(), "ner_results"))
+
+# detect(["dataset/MSNBC/rawTexts/Bus16451112.txt"], output_dir=join(getcwd(), "ner_results"))
 

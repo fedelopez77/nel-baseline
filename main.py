@@ -17,8 +17,6 @@ import wptools
 from model import Mention, Entry, LinkedMention
 from ner import detect as apply_ner
 
-IGNORED_ENTITY_TYPES = {"ORDINAL", "NUMBER", "DATE", "PERCENT", "DURATION"}
-
 # create logger
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -32,6 +30,10 @@ logger.addHandler(ch)
 
 
 class MentionDetector:
+
+    IGNORED_ENTITY_TYPES = {"ORDINAL", "NUMBER", "DATE", "PERCENT", "MONEY", "DURATION", "CAUSE_OF_DEATH", "SET",
+                            "TITLE"}    # Title is an special case, because given coreference I should use it
+                                        # but for this baseline, it doesn't make sense
 
     def __init__(self, file_name):
         self.file_name = file_name
@@ -50,7 +52,7 @@ class MentionDetector:
             for token in sentence[0]:
                 entity_type = token.find("NER").text
 
-                if entity_type != 'O' and entity_type not in IGNORED_ENTITY_TYPES:
+                if entity_type != 'O' and entity_type not in MentionDetector.IGNORED_ENTITY_TYPES:
                     if entity_type == previous_type:
                         head_string, end_offset = self.get_head_string_and_offset(token)
                         result[-1].add(head_string, end_offset)
@@ -63,15 +65,14 @@ class MentionDetector:
         return result
 
     def create_mention(self, token):
-        head_string = token.find("word").text
+        head_string, end = self.get_head_string_and_offset(token)
         begin = token.find("CharacterOffsetBegin").text
-        end = str(int(token.find("CharacterOffsetEnd").text) - 1)   # StanfordNER offsets is exclusive (adds one extra char at the end)
         entity_type = token.find("NER").text
         return Mention(head_string, self.doc_id, begin, end, entity_type)
 
     def get_head_string_and_offset(self, token):
         head_string = token.find("word").text
-        end = token.find("CharacterOffsetEnd").text
+        end = str(int(token.find("CharacterOffsetEnd").text) - 1)   # StanfordNER offsets is exclusive (adds one extra char at the end)
         return head_string, end
 
 

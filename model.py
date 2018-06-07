@@ -79,7 +79,7 @@ class Entry:
         if self.is_nil():
             return "NIL" + str(self.id)
         url = self.page.data["url"]
-        return url[:4] + url[5:]    # removes s from https to comply with ACE data
+        return url[:4] + url[5:]    # removes https
 
 
 class LinkedMention:

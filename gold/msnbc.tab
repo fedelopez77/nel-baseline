@@ -1,0 +1,755 @@
+MSNBC	EL-0	Home Depot	Bus16451112.txt:0-9	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-1	Nardelli	Bus16451112.txt:15-22	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-2	ATLANTA	Bus16451112.txt:107-113	http://en.wikipedia.org/wiki/Atlanta,_Georgia	PER	NAM	1.0
+MSNBC	EL-3	Bob Nardelli	Bus16451112.txt:117-128	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-4	The Home Depot Inc.	Bus16451112.txt:193-211	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-5	Nardelli	Bus16451112.txt:374-381	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-6	General Electric Co.	Bus16451112.txt:583-602	http://en.wikipedia.org/wiki/General_Electric	PER	NAM	1.0
+MSNBC	EL-7	Nardelli	Bus16451112.txt:611-618	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-8	Home Depot	Bus16451112.txt:652-661	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-9	Nardelli	Bus16451112.txt:668-675	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-10	Frank Blake	Bus16451112.txt:699-709	http://en.wikipedia.org/wiki/Frank_Blake	PER	NAM	1.0
+MSNBC	EL-11	Blake	Bus16451112.txt:705-709	http://en.wikipedia.org/wiki/Frank_Blake	PER	NAM	1.0
+MSNBC	EL-12	Home Depot	Bus16451112.txt:791-800	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-13	Jerry Shields	Bus16451112.txt:812-824	http://en.wikipedia.org/wiki/Jerry_Shields	PER	NAM	1.0
+MSNBC	EL-14	Shields	Bus16451112.txt:818-824	http://en.wikipedia.org/wiki/Jerry_Shields	PER	NAM	1.0
+MSNBC	EL-15	Blake	Bus16451112.txt:927-931	http://en.wikipedia.org/wiki/Frank_Blake	PER	NAM	1.0
+MSNBC	EL-16	Nardelli	Bus16451112.txt:979-986	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-17	Home Depot	Bus16451112.txt:1065-1074	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-18	Nardelli	Bus16451112.txt:1150-1157	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-19	Nardelli	Bus16451112.txt:1173-1180	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-20	The Associated Press	Bus16451112.txt:1230-1249	http://en.wikipedia.org/wiki/The_Associated_Press	PER	NAM	1.0
+MSNBC	EL-21	Nardelli	Bus16451112.txt:1372-1379	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-22	Home Depot	Bus16451112.txt:1507-1516	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-23	Nardelli	Bus16451112.txt:1519-1526	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-24	Nardelli	Bus16451112.txt:1622-1629	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-25	The Home Depot	Bus16451112.txt:1663-1676	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-26	Home Depot	Bus16451112.txt:1667-1676	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-27	Nardelli	Bus16451112.txt:1736-1743	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-28	Atlanta	Bus16451112.txt:1799-1805	http://en.wikipedia.org/wiki/Atlanta,_Georgia	PER	NAM	1.0
+MSNBC	EL-29	Bob	Bus16451112.txt:1850-1852	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-30	The Home Depot	Bus16451112.txt:1883-1896	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-31	Bob	Bus16451112.txt:1929-1931	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-32	Home Depot	Bus16451112.txt:2237-2246	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-33	Nardelli	Bus16451112.txt:2280-2287	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-34	President Bush	Bus16451112.txt:2365-2378	http://en.wikipedia.org/wiki/George_H._W._Bush	PER	NAM	1.0
+MSNBC	EL-35	Home Depot	Bus16451112.txt:2423-2432	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-36	Home Depot	Bus16451112.txt:2509-2518	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-37	Blake	Bus16451112.txt:2763-2767	http://en.wikipedia.org/wiki/Frank_Blake	PER	NAM	1.0
+MSNBC	EL-38	Home Depot	Bus16451112.txt:2814-2823	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-39	James Senn	Bus16451112.txt:2874-2883	http://en.wikipedia.org/wiki/James_Senn	PER	NAM	1.0
+MSNBC	EL-40	Robinson College	Bus16451112.txt:2898-2913	http://en.wikipedia.org/wiki/J._Mack_Robinson_College_of_Business	PER	NAM	1.0
+MSNBC	EL-41	Center for Global Business Leadership	Bus16451112.txt:2917-2953	http://en.wikipedia.org/wiki/Center_for_Global_Business_Leadership	PER	NAM	1.0
+MSNBC	EL-42	Georgia State University	Bus16451112.txt:2958-2981	http://en.wikipedia.org/wiki/Georgia_State_University	PER	NAM	1.0
+MSNBC	EL-43	Bob	Bus16451112.txt:3072-3074	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-44	Home Depot	Bus16451112.txt:3143-3152	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-45	Carol Tome	Bus16451112.txt:3180-3189	http://en.wikipedia.org/wiki/Carol_Tome	PER	NAM	1.0
+MSNBC	EL-46	Joe DeAngelo	Bus16451112.txt:3225-3236	http://en.wikipedia.org/wiki/Joe_DeAngelo	PER	NAM	1.0
+MSNBC	EL-47	Home Depot Supply	Bus16451112.txt:3272-3288	http://en.wikipedia.org/wiki/Home_Depot_Supply	PER	NAM	1.0
+MSNBC	EL-48	DeAngelo	Bus16451112.txt:3466-3473	http://en.wikipedia.org/wiki/Joe_DeAngelo	PER	NAM	1.0
+MSNBC	EL-49	Nardelli	Bus16451112.txt:3550-3557	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-50	Home Depot	Bus16451112.txt:3563-3572	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-51	Nardelli	Bus16451112.txt:3780-3787	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-52	Nardelli	Bus16451112.txt:4682-4689	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-53	Home Depot	Bus16451112.txt:4829-4838	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-54	Nardelli	Bus16451112.txt:4857-4864	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-55	John L. Clendenin	Bus16451112.txt:5017-5033	http://en.wikipedia.org/wiki/John_L._Clendenin	PER	NAM	1.0
+MSNBC	EL-56	Claudio X. Gonzales	Bus16451112.txt:5036-5054	http://en.wikipedia.org/wiki/Claudio_X._Gonzales	PER	NAM	1.0
+MSNBC	EL-57	Milledge A. Hart III	Bus16451112.txt:5060-5079	http://en.wikipedia.org/wiki/Milledge_A._Hart_III	PER	NAM	1.0
+MSNBC	EL-58	Home Depot	Bus16451112.txt:5208-5217	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-59	Texas	Tra16444229.txt:13-17	http://en.wikipedia.org/wiki/Texas	PER	NAM	1.0
+MSNBC	EL-60	HOUSTON	Tra16444229.txt:121-127	http://en.wikipedia.org/wiki/Houston,_Texas	PER	NAM	1.0
+MSNBC	EL-61	George Bush Intercontinental Airport	Tra16444229.txt:241-276	http://en.wikipedia.org/wiki/George_Bush_Intercontinental_Airport	PER	NAM	1.0
+MSNBC	EL-62	Houston	Tra16444229.txt:354-360	http://en.wikipedia.org/wiki/Houston,_Texas	PER	NAM	1.0
+MSNBC	EL-63	Police	Tra16444229.txt:396-401	http://en.wikipedia.org/wiki/List_of_U.S._state_and_local_law_enforcement_agencies	PER	NAM	1.0
+MSNBC	EL-64	Manuel	Tra16444229.txt:694-699	NIL	PER	NAM	1.0
+MSNBC	EL-65	Ricardo Aguilar	Tra16444229.txt:705-719	http://en.wikipedia.org/wiki/Ricardo_Aguilar	PER	NAM	1.0
+MSNBC	EL-66	Carlos Osorio	Tra16444229.txt:726-738	http://en.wikipedia.org/wiki/Carlos_Osorio	PER	NAM	1.0
+MSNBC	EL-67	Erick Perez	Tra16444229.txt:745-755	http://en.wikipedia.org/wiki/Erick_Perez	PER	NAM	1.0
+MSNBC	EL-68	Daniel Venegas	Tra16444229.txt:766-779	http://en.wikipedia.org/wiki/Daniel_Venegas	PER	NAM	1.0
+MSNBC	EL-69	Osorio	Tra16444229.txt:828-833	http://en.wikipedia.org/wiki/Carlos_Osorio	PER	NAM	1.0
+MSNBC	EL-70	Perez	Tra16444229.txt:839-843	http://en.wikipedia.org/wiki/Erick_Perez	PER	NAM	1.0
+MSNBC	EL-71	Harris County Jail	Tra16444229.txt:868-885	http://en.wikipedia.org/wiki/Harris_County_Jail	PER	NAM	1.0
+MSNBC	EL-72	Venegas	Tra16444229.txt:938-944	http://en.wikipedia.org/wiki/Daniel_Venegas	PER	NAM	1.0
+MSNBC	EL-73	Bownds	Tra16444229.txt:1020-1025	http://en.wikipedia.org/wiki/Houston_Police_Capt._Rick_Bownds	PER	NAM	1.0
+MSNBC	EL-74	Menzies Aviation Group	Tra16444229.txt:1051-1072	http://en.wikipedia.org/wiki/Menzies_Aviation_Group	PER	NAM	1.0
+MSNBC	EL-75	United States	Tra16444229.txt:1140-1152	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-76	London	Tra16444229.txt:1267-1272	http://en.wikipedia.org/wiki/London	PER	NAM	1.0
+MSNBC	EL-77	Bownds	Tra16444229.txt:1451-1456	http://en.wikipedia.org/wiki/Houston_Police_Capt._Rick_Bownds	PER	NAM	1.0
+MSNBC	EL-78	Barbara Walters	Ent16453733.txt:0-14	http://en.wikipedia.org/wiki/Barbara_Walters	PER	NAM	1.0
+MSNBC	EL-79	Rosie O'Donnell	Ent16453733.txt:26-40	http://en.wikipedia.org/wiki/Rosie_O'Donnell	PER	NAM	1.0
+MSNBC	EL-80	Trump	Ent16453733.txt:62-66	http://en.wikipedia.org/wiki/Donald_Trump	PER	NAM	1.0
+MSNBC	EL-81	NEW YORK	Ent16453733.txt:116-123	http://en.wikipedia.org/wiki/New_York_City	PER	NAM	1.0
+MSNBC	EL-82	Barbara Walters	Ent16453733.txt:127-141	http://en.wikipedia.org/wiki/Barbara_Walters	PER	NAM	1.0
+MSNBC	EL-83	Rosie O'Donnell	Ent16453733.txt:189-203	http://en.wikipedia.org/wiki/Rosie_O'Donnell	PER	NAM	1.0
+MSNBC	EL-84	Donald Trump	Ent16453733.txt:240-251	http://en.wikipedia.org/wiki/Donald_Trump	PER	NAM	1.0
+MSNBC	EL-85	Walters	Ent16453733.txt:257-263	http://en.wikipedia.org/wiki/Barbara_Walters	PER	NAM	1.0
+MSNBC	EL-86	ABC	Ent16453733.txt:277-279	http://en.wikipedia.org/wiki/American_Broadcasting_Company	PER	NAM	1.0
+MSNBC	EL-87	The View	Ent16453733.txt:284-291	http://en.wikipedia.org/wiki/The_View	PER	NAM	1.0
+MSNBC	EL-88	Trump	Ent16453733.txt:355-359	http://en.wikipedia.org/wiki/Donald_Trump	PER	NAM	1.0
+MSNBC	EL-89	O'Donnell	Ent16453733.txt:377-385	http://en.wikipedia.org/wiki/Rosie_O'Donnell	PER	NAM	1.0
+MSNBC	EL-90	Walters	Ent16453733.txt:547-553	http://en.wikipedia.org/wiki/Barbara_Walters	PER	NAM	1.0
+MSNBC	EL-91	O'Donnell	Ent16453733.txt:563-571	http://en.wikipedia.org/wiki/Rosie_O'Donnell	PER	NAM	1.0
+MSNBC	EL-92	Walters	Ent16453733.txt:622-628	http://en.wikipedia.org/wiki/Barbara_Walters	PER	NAM	1.0
+MSNBC	EL-93	Walters	Ent16453733.txt:686-692	http://en.wikipedia.org/wiki/Barbara_Walters	PER	NAM	1.0
+MSNBC	EL-94	The Donald	Ent16453733.txt:740-749	http://en.wikipedia.org/wiki/Donald_Trump	PER	NAM	1.0
+MSNBC	EL-95	O'Donnell	Ent16453733.txt:778-786	http://en.wikipedia.org/wiki/Rosie_O'Donnell	PER	NAM	1.0
+MSNBC	EL-96	The View	Ent16453733.txt:797-804	http://en.wikipedia.org/wiki/The_View	PER	NAM	1.0
+MSNBC	EL-97	ABC	Ent16453733.txt:854-856	http://en.wikipedia.org/wiki/American_Broadcasting_Company	PER	NAM	1.0
+MSNBC	EL-98	Donald Trump	Ent16453733.txt:926-937	http://en.wikipedia.org/wiki/Donald_Trump	PER	NAM	1.0
+MSNBC	EL-99	Walters	Ent16453733.txt:1084-1090	http://en.wikipedia.org/wiki/Barbara_Walters	PER	NAM	1.0
+MSNBC	EL-100	O'Donnell	Ent16453733.txt:1101-1109	http://en.wikipedia.org/wiki/Rosie_O'Donnell	PER	NAM	1.0
+MSNBC	EL-101	Trump	Ent16453733.txt:1115-1119	http://en.wikipedia.org/wiki/Donald_Trump	PER	NAM	1.0
+MSNBC	EL-102	Trump	Ent16453733.txt:1281-1285	http://en.wikipedia.org/wiki/Donald_Trump	PER	NAM	1.0
+MSNBC	EL-103	Miss Universe Organization	Ent16453733.txt:1307-1332	http://en.wikipedia.org/wiki/Miss_Universe_Organization	PER	NAM	1.0
+MSNBC	EL-104	Miss USA	Ent16453733.txt:1350-1357	http://en.wikipedia.org/wiki/Miss_USA	PER	NAM	1.0
+MSNBC	EL-105	Miss Teen USA	Ent16453733.txt:1363-1375	http://en.wikipedia.org/wiki/Miss_Teen_USA	PER	NAM	1.0
+MSNBC	EL-106	The View	Ent16453733.txt:1421-1428	http://en.wikipedia.org/wiki/The_View	PER	NAM	1.0
+MSNBC	EL-107	Trump	Ent16453733.txt:1471-1475	http://en.wikipedia.org/wiki/Donald_Trump	PER	NAM	1.0
+MSNBC	EL-108	Conner	Ent16453733.txt:1500-1505	http://en.wikipedia.org/wiki/Tara_Conner	PER	NAM	1.0
+MSNBC	EL-109	America	Ent16453733.txt:1654-1660	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-110	Trump	Ent16453733.txt:1667-1671	http://en.wikipedia.org/wiki/Donald_Trump	PER	NAM	1.0
+MSNBC	EL-111	O'Donnell	Ent16453733.txt:1693-1701	http://en.wikipedia.org/wiki/Rosie_O'Donnell	PER	NAM	1.0
+MSNBC	EL-112	NBC	Ent16453733.txt:1799-1801	http://en.wikipedia.org/wiki/NBC	PER	NAM	1.0
+MSNBC	EL-113	The Apprentice	Ent16453733.txt:1806-1819	http://en.wikipedia.org/wiki/The_Apprentice	PER	NAM	1.0
+MSNBC	EL-114	Santa Baby	Hea16384904.txt:453-462	http://en.wikipedia.org/wiki/Santa_Baby	PER	NAM	1.0
+MSNBC	EL-115	Mayo Clinic	Hea16384904.txt:818-828	http://en.wikipedia.org/wiki/Mayo_Clinic	PER	NAM	1.0
+MSNBC	EL-116	Mayo Clinic	Hea16384904.txt:1208-1218	http://en.wikipedia.org/wiki/Mayo_Clinic	PER	NAM	1.0
+MSNBC	EL-117	Stony Brook University	Hea16384904.txt:1538-1559	http://en.wikipedia.org/wiki/State_University_of_New_York_at_Stony_Brook	PER	NAM	1.0
+MSNBC	EL-118	New York	Hea16384904.txt:1564-1571	http://en.wikipedia.org/wiki/New_York_City	PER	NAM	1.0
+MSNBC	EL-119	Goteborg University	Hea16384904.txt:2048-2066	http://en.wikipedia.org/wiki/Goteborg_University	PER	NAM	1.0
+MSNBC	EL-120	Sweden	Hea16384904.txt:2071-2076	http://en.wikipedia.org/wiki/Sweden	PER	NAM	1.0
+MSNBC	EL-121	London	Hea16384904.txt:2424-2429	http://en.wikipedia.org/wiki/London	PER	NAM	1.0
+MSNBC	EL-122	Hodgkinâ€™s lymphoma	Hea16384904.txt:2516-2533	http://en.wikipedia.org/wiki/Hodgkin's_lymphoma	PER	NAM	1.0
+MSNBC	EL-123	Ohio State University	Hea16384904.txt:2619-2639	http://en.wikipedia.org/wiki/Ohio_State_University	PER	NAM	1.0
+MSNBC	EL-124	University of Missouri	Hea16384904.txt:2783-2804	http://en.wikipedia.org/wiki/University_of_Missouri-Columbia	PER	NAM	1.0
+MSNBC	EL-125	U.S.	TvN16442342.txt:0-3	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-126	Sago Mine accident	TvN16442342.txt:62-79	http://en.wikipedia.org/wiki/Sago_Mine_disaster	PER	NAM	1.0
+MSNBC	EL-127	BUCKHANNON	TvN16442342.txt:118-127	http://en.wikipedia.org/wiki/Buckhannon,_West_Virginia	PER	NAM	1.0
+MSNBC	EL-128	W. Va	TvN16442342.txt:130-134	http://en.wikipedia.org/wiki/West_Virginia	PER	NAM	1.0
+MSNBC	EL-129	Sago Mine	TvN16442342.txt:242-250	http://en.wikipedia.org/wiki/Sago_Mine_disaster	PER	NAM	1.0
+MSNBC	EL-130	Buckhannon	TvN16442342.txt:257-266	http://en.wikipedia.org/wiki/Buckhannon,_West_Virginia	PER	NAM	1.0
+MSNBC	EL-131	W. Va	TvN16442342.txt:269-273	http://en.wikipedia.org/wiki/West_Virginia	PER	NAM	1.0
+MSNBC	EL-132	West Virginia	TvN16442342.txt:348-360	http://en.wikipedia.org/wiki/West_Virginia	PER	NAM	1.0
+MSNBC	EL-133	Randal McCloy	TvN16442342.txt:371-383	http://en.wikipedia.org/wiki/Randal_McCloy	PER	NAM	1.0
+MSNBC	EL-134	Debbie Hamner	TvN16442342.txt:635-647	http://en.wikipedia.org/wiki/Debbie_Hamner	PER	NAM	1.0
+MSNBC	EL-135	Sago	TvN16442342.txt:690-693	http://en.wikipedia.org/wiki/Sago_Mine_disaster	PER	NAM	1.0
+MSNBC	EL-136	West Virginia	TvN16442342.txt:701-713	http://en.wikipedia.org/wiki/West_Virginia	PER	NAM	1.0
+MSNBC	EL-137	Davitt McAteer	TvN16442342.txt:1150-1163	http://en.wikipedia.org/wiki/Davitt_McAteer	PER	NAM	1.0
+MSNBC	EL-138	Mine Safety and Health Administration	TvN16442342.txt:1219-1255	http://en.wikipedia.org/wiki/Mine_Safety_and_Health_Administration	PER	NAM	1.0
+MSNBC	EL-139	West Virginia	TvN16442342.txt:1265-1277	http://en.wikipedia.org/wiki/West_Virginia	PER	NAM	1.0
+MSNBC	EL-140	Sago Mine	TvN16442342.txt:1281-1289	http://en.wikipedia.org/wiki/Sago_Mine_disaster	PER	NAM	1.0
+MSNBC	EL-141	McAteer	TvN16442342.txt:1369-1375	http://en.wikipedia.org/wiki/Davitt_McAteer	PER	NAM	1.0
+MSNBC	EL-142	Sago	TvN16442342.txt:1615-1618	http://en.wikipedia.org/wiki/Sago_Mine_disaster	PER	NAM	1.0
+MSNBC	EL-143	Dennis O'Dell	TvN16442342.txt:2156-2168	http://en.wikipedia.org/wiki/Dennis_O'Dell	PER	NAM	1.0
+MSNBC	EL-144	United Mine Workers of America	TvN16442342.txt:2173-2202	http://en.wikipedia.org/wiki/United_Mine_Workers	PER	NAM	1.0
+MSNBC	EL-145	Timberlake	Ent16444023.txt:0-9	http://en.wikipedia.org/wiki/Justin_Timberlake	PER	NAM	1.0
+MSNBC	EL-146	Diaz	Ent16444023.txt:12-15	http://en.wikipedia.org/wiki/Cameron_Diaz	PER	NAM	1.0
+MSNBC	EL-147	N' Sync	Ent16444023.txt:45-51	http://en.wikipedia.org/wiki/'N_Sync	PER	NAM	1.0
+MSNBC	EL-148	Justin Timberlake	Ent16444023.txt:101-117	http://en.wikipedia.org/wiki/Justin_Timberlake	PER	NAM	1.0
+MSNBC	EL-149	Cameron Diaz	Ent16444023.txt:123-134	http://en.wikipedia.org/wiki/Cameron_Diaz	PER	NAM	1.0
+MSNBC	EL-150	Star magazine	Ent16444023.txt:183-195	http://en.wikipedia.org/wiki/Star_(magazine)	PER	NAM	1.0
+MSNBC	EL-151	Star	Ent16444023.txt:214-217	http://en.wikipedia.org/wiki/Star_(magazine)	PER	NAM	1.0
+MSNBC	EL-152	Diaz	Ent16444023.txt:220-223	http://en.wikipedia.org/wiki/Cameron_Diaz	PER	NAM	1.0
+MSNBC	EL-153	Christmas	Ent16444023.txt:236-244	http://en.wikipedia.org/wiki/Christmas	PER	NAM	1.0
+MSNBC	EL-154	Vail	Ent16444023.txt:265-268	http://en.wikipedia.org/wiki/Vail,_Colorado	PER	NAM	1.0
+MSNBC	EL-155	Colo.	Ent16444023.txt:271-275	http://en.wikipedia.org/wiki/Colorado	PER	NAM	1.0
+MSNBC	EL-156	Timberlake	Ent16444023.txt:284-293	http://en.wikipedia.org/wiki/Justin_Timberlake	PER	NAM	1.0
+MSNBC	EL-157	Memphis	Ent16444023.txt:325-331	http://en.wikipedia.org/wiki/Memphis,_Tennessee	PER	NAM	1.0
+MSNBC	EL-158	N' Sync	Ent16444023.txt:383-389	http://en.wikipedia.org/wiki/'N_Sync	PER	NAM	1.0
+MSNBC	EL-159	Saturday Night Live	Ent16444023.txt:544-562	http://en.wikipedia.org/wiki/Saturday_Night_Live	PER	NAM	1.0
+MSNBC	EL-160	Diaz	Ent16444023.txt:569-572	http://en.wikipedia.org/wiki/Cameron_Diaz	PER	NAM	1.0
+MSNBC	EL-161	Timberlake	Ent16444023.txt:578-587	http://en.wikipedia.org/wiki/Justin_Timberlake	PER	NAM	1.0
+MSNBC	EL-162	Kids' Choice Awards	Ent16444023.txt:650-668	http://en.wikipedia.org/wiki/Nickelodeon_Kids'_Choice_Awards	PER	NAM	1.0
+MSNBC	EL-163	Timberlake	Ent16444023.txt:706-715	http://en.wikipedia.org/wiki/Justin_Timberlake	PER	NAM	1.0
+MSNBC	EL-164	Veronica Finn	Ent16444023.txt:752-764	http://en.wikipedia.org/wiki/Veronica_Finn	PER	NAM	1.0
+MSNBC	EL-165	Britney Spears	Ent16444023.txt:822-835	http://en.wikipedia.org/wiki/Britney_Spears	PER	NAM	1.0
+MSNBC	EL-166	Spears	Ent16444023.txt:830-835	http://en.wikipedia.org/wiki/Britney_Spears	PER	NAM	1.0
+MSNBC	EL-167	Innosense	Ent16444023.txt:899-907	http://en.wikipedia.org/wiki/Innosense_(band)	PER	NAM	1.0
+MSNBC	EL-168	Lou Pearlman	Ent16444023.txt:940-951	http://en.wikipedia.org/wiki/Lou_Pearlman	PER	NAM	1.0
+MSNBC	EL-169	Saban	Spo16417540.txt:0-4	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-170	Dolphins	Spo16417540.txt:13-20	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-171	Alabama	Spo16417540.txt:26-32	http://en.wikipedia.org/wiki/Alabama	PER	NAM	1.0
+MSNBC	EL-172	DAVIE	Spo16417540.txt:119-123	http://en.wikipedia.org/wiki/Davie,_Florida	PER	NAM	1.0
+MSNBC	EL-173	Fla.	Spo16417540.txt:126-129	http://en.wikipedia.org/wiki/Florida	PER	NAM	1.0
+MSNBC	EL-174	Nick Saban	Spo16417540.txt:133-142	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-175	Bama	Spo16417540.txt:148-151	http://en.wikipedia.org/wiki/Alabama	PER	NAM	1.0
+MSNBC	EL-176	Saban	Spo16417540.txt:222-226	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-177	Alabama	Spo16417540.txt:241-247	http://en.wikipedia.org/wiki/University_of_Alabama	PER	NAM	1.0
+MSNBC	EL-178	Miami Dolphins	Spo16417540.txt:299-312	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-179	Miami	Spo16417540.txt:421-425	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-180	Wayne Huizenga	Spo16417540.txt:433-446	http://en.wikipedia.org/wiki/Wayne_Huizenga	PER	NAM	1.0
+MSNBC	EL-181	Saban	Spo16417540.txt:511-515	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-182	Huizenga	Spo16417540.txt:526-533	http://en.wikipedia.org/wiki/Wayne_Huizenga	PER	NAM	1.0
+MSNBC	EL-183	Saban	Spo16417540.txt:585-589	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-184	Huizenga	Spo16417540.txt:629-636	http://en.wikipedia.org/wiki/Wayne_Huizenga	PER	NAM	1.0
+MSNBC	EL-185	Saban	Spo16417540.txt:654-658	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-186	Saban	Spo16417540.txt:762-766	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-187	Tuscaloosa	Spo16417540.txt:835-844	http://en.wikipedia.org/wiki/Tuscaloosa,_Alabama	PER	NAM	1.0
+MSNBC	EL-188	Huizenga	Spo16417540.txt:847-854	http://en.wikipedia.org/wiki/Wayne_Huizenga	PER	NAM	1.0
+MSNBC	EL-189	Saban	Spo16417540.txt:909-913	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-190	Huizenga	Spo16417540.txt:971-978	http://en.wikipedia.org/wiki/Wayne_Huizenga	PER	NAM	1.0
+MSNBC	EL-191	Saban	Spo16417540.txt:1010-1014	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-192	Terry	Spo16417540.txt:1030-1034	NIL	PER	NAM	1.0
+MSNBC	EL-193	Nick	Spo16417540.txt:1084-1087	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-194	Nick	Spo16417540.txt:1160-1163	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-195	Terry	Spo16417540.txt:1169-1173	NIL	PER	NAM	1.0
+MSNBC	EL-196	Huizenga	Spo16417540.txt:1211-1218	http://en.wikipedia.org/wiki/Wayne_Huizenga	PER	NAM	1.0
+MSNBC	EL-197	Nick	Spo16417540.txt:1235-1238	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-198	Nick	Spo16417540.txt:1257-1260	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-199	Saban	Spo16417540.txt:1404-1408	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-200	LSU	Spo16417540.txt:1445-1447	http://en.wikipedia.org/wiki/Louisiana_State_University	PER	NAM	1.0
+MSNBC	EL-201	Dolphins	Spo16417540.txt:1471-1478	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-202	Crimson Tide	Spo16417540.txt:1550-1561	http://en.wikipedia.org/wiki/University_of_Alabama	PER	NAM	1.0
+MSNBC	EL-203	Saban	Spo16417540.txt:1580-1584	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-204	Mike Shula	Spo16417540.txt:1607-1616	http://en.wikipedia.org/wiki/Mike_Shula	PER	NAM	1.0
+MSNBC	EL-205	Huizenga	Spo16417540.txt:1619-1626	http://en.wikipedia.org/wiki/Wayne_Huizenga	PER	NAM	1.0
+MSNBC	EL-206	Saban	Spo16417540.txt:1674-1678	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-207	Saban	Spo16417540.txt:1728-1732	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-208	Alabama	Spo16417540.txt:1765-1771	http://en.wikipedia.org/wiki/University_of_Alabama	PER	NAM	1.0
+MSNBC	EL-209	Dolphins	Spo16417540.txt:1797-1804	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-210	Alabama	Spo16417540.txt:1833-1839	http://en.wikipedia.org/wiki/University_of_Alabama	PER	NAM	1.0
+MSNBC	EL-211	Miami	Spo16417540.txt:1971-1975	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-212	Huizenga	Spo16417540.txt:2026-2033	http://en.wikipedia.org/wiki/Wayne_Huizenga	PER	NAM	1.0
+MSNBC	EL-213	Don Shula	Spo16417540.txt:2092-2100	http://en.wikipedia.org/wiki/Don_Shula	PER	NAM	1.0
+MSNBC	EL-214	Jimmy Johnson	Spo16417540.txt:2134-2146	http://en.wikipedia.org/wiki/Jimmy_Johnson_(American_football_coach)	PER	NAM	1.0
+MSNBC	EL-215	Johnson	Spo16417540.txt:2140-2146	http://en.wikipedia.org/wiki/Jimmy_Johnson_(American_football_coach)	PER	NAM	1.0
+MSNBC	EL-216	Saban	Spo16417540.txt:2238-2242	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-217	NFL	Spo16417540.txt:2276-2278	http://en.wikipedia.org/wiki/National_Football_League	PER	NAM	1.0
+MSNBC	EL-218	Huizenga	Spo16417540.txt:2316-2323	http://en.wikipedia.org/wiki/Wayne_Huizenga	PER	NAM	1.0
+MSNBC	EL-219	Saban	Spo16417540.txt:2342-2346	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-220	Saban	Spo16417540.txt:2365-2369	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-221	Tide	Spo16417540.txt:2387-2390	http://en.wikipedia.org/wiki/University_of_Alabama	PER	NAM	1.0
+MSNBC	EL-222	Alabama	Spo16417540.txt:2411-2417	http://en.wikipedia.org/wiki/University_of_Alabama	PER	NAM	1.0
+MSNBC	EL-223	Rich Rodriguez	Spo16417540.txt:2438-2451	http://en.wikipedia.org/wiki/Rich_Rodriguez	PER	NAM	1.0
+MSNBC	EL-224	West Virginia	Spo16417540.txt:2480-2492	http://en.wikipedia.org/wiki/West_Virginia_University	PER	NAM	1.0
+MSNBC	EL-225	Alabama	Spo16417540.txt:2495-2501	http://en.wikipedia.org/wiki/University_of_Alabama	PER	NAM	1.0
+MSNBC	EL-226	Oklahoma State	Spo16417540.txt:2521-2534	http://en.wikipedia.org/wiki/Oklahoma_State	PER	NAM	1.0
+MSNBC	EL-227	Independence Bowl	Spo16417540.txt:2543-2559	http://en.wikipedia.org/wiki/Independence_Bowl	PER	NAM	1.0
+MSNBC	EL-228	Saban	Spo16417540.txt:2610-2614	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-229	Chicago Bears	Spo16417540.txt:2624-2636	http://en.wikipedia.org/wiki/Chicago_Bears	PER	NAM	1.0
+MSNBC	EL-230	Ron Rivera	Spo16417540.txt:2660-2669	http://en.wikipedia.org/wiki/Ron_Rivera	PER	NAM	1.0
+MSNBC	EL-231	Green Bay	Spo16417540.txt:2679-2687	http://en.wikipedia.org/wiki/Green_Bay_Packers	PER	NAM	1.0
+MSNBC	EL-232	Mike Sherman	Spo16417540.txt:2700-2711	http://en.wikipedia.org/wiki/Mike_Sherman	PER	NAM	1.0
+MSNBC	EL-233	San Diego Chargers	Spo16417540.txt:2714-2731	http://en.wikipedia.org/wiki/San_Diego_Chargers	PER	NAM	1.0
+MSNBC	EL-234	Cam Cameron	Spo16417540.txt:2755-2765	http://en.wikipedia.org/wiki/Cam_Cameron	PER	NAM	1.0
+MSNBC	EL-235	Indianapolis	Spo16417540.txt:2768-2779	http://en.wikipedia.org/wiki/Indianapolis_Colts	PER	NAM	1.0
+MSNBC	EL-236	Jim Caldwell	Spo16417540.txt:2791-2802	http://en.wikipedia.org/wiki/Jim_Caldwell_(football_coach)	PER	NAM	1.0
+MSNBC	EL-237	Tennessee Titans	Spo16417540.txt:2805-2820	http://en.wikipedia.org/wiki/Tennessee_Titans	PER	NAM	1.0
+MSNBC	EL-238	Norm Chow	Spo16417540.txt:2844-2852	http://en.wikipedia.org/wiki/Norm_Chow	PER	NAM	1.0
+MSNBC	EL-239	Pittsburgh Steelers	Spo16417540.txt:2858-2876	http://en.wikipedia.org/wiki/Pittsburgh_Steelers	PER	NAM	1.0
+MSNBC	EL-240	Russ Grimm	Spo16417540.txt:2889-2898	http://en.wikipedia.org/wiki/Russ_Grimm	PER	NAM	1.0
+MSNBC	EL-241	Ken Whisenhut	Spo16417540.txt:2904-2916	http://en.wikipedia.org/wiki/Ken_Whisenhut	PER	NAM	1.0
+MSNBC	EL-242	Huizenga	Spo16417540.txt:2922-2929	http://en.wikipedia.org/wiki/Wayne_Huizenga	PER	NAM	1.0
+MSNBC	EL-243	Saban	Spo16417540.txt:2986-2990	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-244	Dolphins	Spo16417540.txt:3004-3011	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-245	LSU	Spo16417540.txt:3018-3020	http://en.wikipedia.org/wiki/Louisiana_State_University	PER	NAM	1.0
+MSNBC	EL-246	Huizenga	Spo16417540.txt:3093-3100	http://en.wikipedia.org/wiki/Wayne_Huizenga	PER	NAM	1.0
+MSNBC	EL-247	Joe Bailey	Spo16417540.txt:3435-3444	http://en.wikipedia.org/wiki/Joe_Bailey	PER	NAM	1.0
+MSNBC	EL-248	Dolphins Enterprises	Spo16417540.txt:3474-3493	http://en.wikipedia.org/wiki/Dolphins_Enterprises	PER	NAM	1.0
+MSNBC	EL-249	Brian Wiedmeier	Spo16417540.txt:3500-3514	http://en.wikipedia.org/wiki/Brian_Wiedmeier	PER	NAM	1.0
+MSNBC	EL-250	Dolphins	Spo16417540.txt:3521-3528	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-251	Arizona Cardinals	Spo16417540.txt:3574-3590	http://en.wikipedia.org/wiki/Arizona_Cardinals	PER	NAM	1.0
+MSNBC	EL-252	Atlanta Falcons	Spo16417540.txt:3596-3610	http://en.wikipedia.org/wiki/Atlanta_Falcons	PER	NAM	1.0
+MSNBC	EL-253	Dolphins	Spo16417540.txt:3649-3656	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-254	Huizenga	Spo16417540.txt:3748-3755	http://en.wikipedia.org/wiki/Wayne_Huizenga	PER	NAM	1.0
+MSNBC	EL-255	Shula	Spo16417540.txt:3876-3880	http://en.wikipedia.org/wiki/Mike_Shula	PER	NAM	1.0
+MSNBC	EL-256	Miami	Spo16417540.txt:3898-3902	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-257	Dolphins	Spo16417540.txt:3979-3986	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-258	Daunte Culpepper	Spo16417540.txt:4080-4095	http://en.wikipedia.org/wiki/Daunte_Culpepper	PER	NAM	1.0
+MSNBC	EL-259	Miami	Spo16417540.txt:4161-4165	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-260	Dan Marino	Spo16417540.txt:4230-4239	http://en.wikipedia.org/wiki/Dan_Marino	PER	NAM	1.0
+MSNBC	EL-261	Saban	Spo16417540.txt:4360-4364	http://en.wikipedia.org/wiki/Nick_Saban	PER	NAM	1.0
+MSNBC	EL-262	NFL	Spo16417540.txt:4384-4386	http://en.wikipedia.org/wiki/National_Football_League	PER	NAM	1.0
+MSNBC	EL-263	Randy Mueller	Spo16417540.txt:4438-4450	http://en.wikipedia.org/wiki/Randy_Mueller	PER	NAM	1.0
+MSNBC	EL-264	Dolphins	Spo16417540.txt:4528-4535	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-265	AFC championship game	Spo16417540.txt:4557-4577	http://en.wikipedia.org/wiki/AFC_Championship_Game	PER	NAM	1.0
+MSNBC	EL-266	Huizenga	Spo16417540.txt:4585-4592	http://en.wikipedia.org/wiki/Wayne_Huizenga	PER	NAM	1.0
+MSNBC	EL-267	Dolphins	Spo16417540.txt:4735-4742	http://en.wikipedia.org/wiki/Miami_Dolphins	PER	NAM	1.0
+MSNBC	EL-268	Joy Bauer	TvN16442287.txt:55-63	http://en.wikipedia.org/wiki/Joy_Bauer	PER	NAM	1.0
+MSNBC	EL-269	New Year's resolution	TvN16442287.txt:120-140	http://en.wikipedia.org/wiki/New_Year's_resolution	PER	NAM	1.0
+MSNBC	EL-270	Joy Bauer	TvN16442287.txt:203-211	http://en.wikipedia.org/wiki/Joy_Bauer	PER	NAM	1.0
+MSNBC	EL-271	Joy's Healthy Resolutions	TvN16442287.txt:320-344	http://en.wikipedia.org/wiki/Joy's_Healthy_Resolutions	PER	NAM	1.0
+MSNBC	EL-272	New Year	TvN16442287.txt:505-512	http://en.wikipedia.org/wiki/New_Year	PER	NAM	1.0
+MSNBC	EL-273	LDL-Cholesterol	TvN16442287.txt:835-849	http://en.wikipedia.org/wiki/Low_density_lipoprotein	PER	NAM	1.0
+MSNBC	EL-274	HDL-Cholesterol	TvN16442287.txt:868-882	http://en.wikipedia.org/wiki/High_density_lipoprotein	PER	NAM	1.0
+MSNBC	EL-275	American Journal of Clinical Nutrition	TvN16442287.txt:1276-1313	http://en.wikipedia.org/wiki/American_Journal_of_Clinical_Nutrition	PER	NAM	1.0
+MSNBC	EL-276	Sara Lee Food & Beverage	TvN16442287.txt:1938-1961	http://en.wikipedia.org/wiki/Sara_Lee_Food_&_Beverage	PER	NAM	1.0
+MSNBC	EL-277	Whole Wheat	TvN16442287.txt:2250-2260	http://en.wikipedia.org/wiki/Whole_grain	PER	NAM	1.0
+MSNBC	EL-278	Whole Grain	TvN16442287.txt:2270-2280	http://en.wikipedia.org/wiki/Whole_grain	PER	NAM	1.0
+MSNBC	EL-279	Annual Scientific Meeting	TvN16442287.txt:2461-2485	http://en.wikipedia.org/wiki/Annual_Scientific_Meeting	PER	NAM	1.0
+MSNBC	EL-280	NAASO	TvN16442287.txt:2489-2493	http://en.wikipedia.org/wiki/NAASO	PER	NAM	1.0
+MSNBC	EL-281	Joy Bauer	TvN16442287.txt:3297-3305	http://en.wikipedia.org/wiki/Joy_Bauer	PER	NAM	1.0
+MSNBC	EL-282	Home Depot	Bus3683270.txt:69-78	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-283	NEW YORK	Bus3683270.txt:105-112	http://en.wikipedia.org/wiki/New_York_City	PER	NAM	1.0
+MSNBC	EL-284	Home Depot Inc	Bus3683270.txt:295-308	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-285	Wal-Mart Stores Inc.	Bus3683270.txt:315-334	http://en.wikipedia.org/wiki/Wal-Mart	PER	NAM	1.0
+MSNBC	EL-286	Dow Jones	Bus3683270.txt:417-425	http://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average	PER	NAM	1.0
+MSNBC	EL-287	Home Depot	Bus3683270.txt:518-527	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-288	Wall Street	Bus3683270.txt:662-672	http://en.wikipedia.org/wiki/Wall_Street	PER	NAM	1.0
+MSNBC	EL-289	Institute for Supply Management	Bus3683270.txt:750-780	http://en.wikipedia.org/wiki/Institute_for_Supply_Management	PER	NAM	1.0
+MSNBC	EL-290	ISM	Bus3683270.txt:855-857	http://en.wikipedia.org/wiki/Institute_for_Supply_Management	PER	NAM	1.0
+MSNBC	EL-291	Al Goldman	Bus3683270.txt:939-948	http://en.wikipedia.org/wiki/Al_Goldman	PER	NAM	1.0
+MSNBC	EL-292	A.G. Edwards	Bus3683270.txt:978-989	http://en.wikipedia.org/wiki/A.G._Edwards	PER	NAM	1.0
+MSNBC	EL-293	Dow	Bus3683270.txt:1115-1117	http://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average	PER	NAM	1.0
+MSNBC	EL-294	Nasdaq	Bus3683270.txt:1269-1274	http://en.wikipedia.org/wiki/NASDAQ	PER	NAM	1.0
+MSNBC	EL-295	Standard & Poor's 500	Bus3683270.txt:1328-1348	http://en.wikipedia.org/wiki/S&P_500	PER	NAM	1.0
+MSNBC	EL-296	Nasdaq	Bus3683270.txt:1418-1423	http://en.wikipedia.org/wiki/NASDAQ	PER	NAM	1.0
+MSNBC	EL-297	ISM	Bus3683270.txt:1667-1669	http://en.wikipedia.org/wiki/Institute_for_Supply_Management	PER	NAM	1.0
+MSNBC	EL-298	Automatic Data Processing Inc.	Bus3683270.txt:1741-1770	http://en.wikipedia.org/wiki/Automatic_Data_Processing	PER	NAM	1.0
+MSNBC	EL-299	ADP	Bus3683270.txt:1772-1774	http://en.wikipedia.org/wiki/Automatic_Data_Processing	PER	NAM	1.0
+MSNBC	EL-300	New York Mercantile Exchange	Bus3683270.txt:2158-2185	http://en.wikipedia.org/wiki/New_York_Mercantile_Exchange	PER	NAM	1.0
+MSNBC	EL-301	United States	Bus3683270.txt:2239-2251	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-302	Gerald R. Ford	Bus3683270.txt:2366-2379	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-303	Wall Street	Bus3683270.txt:2382-2392	http://en.wikipedia.org/wiki/Wall_Street	PER	NAM	1.0
+MSNBC	EL-304	ISM	Bus3683270.txt:2573-2575	http://en.wikipedia.org/wiki/Institute_for_Supply_Management	PER	NAM	1.0
+MSNBC	EL-305	Commerce Department	Bus3683270.txt:2999-3017	http://en.wikipedia.org/wiki/United_States_Department_of_Commerce	PER	NAM	1.0
+MSNBC	EL-306	Goldman	Bus3683270.txt:3194-3200	http://en.wikipedia.org/wiki/Al_Goldman	PER	NAM	1.0
+MSNBC	EL-307	Bob Nardelli	Bus3683270.txt:3277-3288	http://en.wikipedia.org/wiki/Robert_Nardelli	PER	NAM	1.0
+MSNBC	EL-308	Wal-Mart Stores Inc.	Bus3683270.txt:3411-3430	http://en.wikipedia.org/wiki/Wal-Mart	PER	NAM	1.0
+MSNBC	EL-309	Home Depot	Bus3683270.txt:3563-3572	http://en.wikipedia.org/wiki/Home_Depot	PER	NAM	1.0
+MSNBC	EL-310	Wal-Mart	Bus3683270.txt:3610-3617	http://en.wikipedia.org/wiki/Wal-Mart	PER	NAM	1.0
+MSNBC	EL-311	Cytokinetics Inc	Bus3683270.txt:3684-3699	http://en.wikipedia.org/wiki/Cytokinetics_Inc	PER	NAM	1.0
+MSNBC	EL-312	Amgen Inc	Bus3683270.txt:3767-3775	http://en.wikipedia.org/wiki/Amgen	PER	NAM	1.0
+MSNBC	EL-313	Amgen	Bus3683270.txt:3820-3824	http://en.wikipedia.org/wiki/Amgen	PER	NAM	1.0
+MSNBC	EL-314	Sirius Satellite Radio Inc	Bus3683270.txt:3854-3879	http://en.wikipedia.org/wiki/Sirius_Satellite_Radio	PER	NAM	1.0
+MSNBC	EL-315	Goodyear Tire & Rubber Co	Bus3683270.txt:4026-4050	http://en.wikipedia.org/wiki/Goodyear_Tire_&_Rubber	PER	NAM	1.0
+MSNBC	EL-316	Lennar Corp.	Bus3683270.txt:4253-4264	http://en.wikipedia.org/wiki/Lennar_Corporation	PER	NAM	1.0
+MSNBC	EL-317	U.S.	Bus3683270.txt:4279-4282	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-318	Lennar	Bus3683270.txt:4435-4440	http://en.wikipedia.org/wiki/Lennar_Corporation	PER	NAM	1.0
+MSNBC	EL-319	New York Stock Exchange	Bus3683270.txt:4546-4568	http://en.wikipedia.org/wiki/New_York_Stock_Exchange	PER	NAM	1.0
+MSNBC	EL-320	New Year	Bus3683270.txt:4710-4717	http://en.wikipedia.org/wiki/New_Year	PER	NAM	1.0
+MSNBC	EL-321	Russell 2000 index	Bus3683270.txt:4737-4754	http://en.wikipedia.org/wiki/Russell_2000	PER	NAM	1.0
+MSNBC	EL-322	Japan	Bus3683270.txt:4831-4835	http://en.wikipedia.org/wiki/Japan	PER	NAM	1.0
+MSNBC	EL-323	Nikkei stock average	Bus3683270.txt:4839-4858	http://en.wikipedia.org/wiki/Nikkei_225	PER	NAM	1.0
+MSNBC	EL-324	Britain	Bus3683270.txt:4879-4885	http://en.wikipedia.org/wiki/Great_Britain	PER	NAM	1.0
+MSNBC	EL-325	FTSE 100	Bus3683270.txt:4889-4896	http://en.wikipedia.org/wiki/FTSE_100_Index	PER	NAM	1.0
+MSNBC	EL-326	Germany	Bus3683270.txt:4922-4928	http://en.wikipedia.org/wiki/Germany	PER	NAM	1.0
+MSNBC	EL-327	DAX	Bus3683270.txt:4932-4934	http://en.wikipedia.org/wiki/DAX	PER	NAM	1.0
+MSNBC	EL-328	France	Bus3683270.txt:4967-4972	http://en.wikipedia.org/wiki/France	PER	NAM	1.0
+MSNBC	EL-329	CAC-40	Bus3683270.txt:4976-4981	http://en.wikipedia.org/wiki/CAC_40	PER	NAM	1.0
+MSNBC	EL-330	U.S.	USN16443053.txt:13-16	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-331	WASHINGTON	USN16443053.txt:126-135	http://en.wikipedia.org/wiki/Washington,_D.C.	PER	NAM	1.0
+MSNBC	EL-332	U.S.	USN16443053.txt:154-157	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-333	The Associated Press	USN16443053.txt:372-391	http://en.wikipedia.org/wiki/The_Associated_Press	PER	NAM	1.0
+MSNBC	EL-334	Washington	USN16443053.txt:480-489	http://en.wikipedia.org/wiki/Washington,_D.C.	PER	NAM	1.0
+MSNBC	EL-335	D.C.	USN16443053.txt:492-495	http://en.wikipedia.org/wiki/District_of_Columbia	PER	NAM	1.0
+MSNBC	EL-336	San Diego	USN16443053.txt:498-506	http://en.wikipedia.org/wiki/San_Diego,_California	PER	NAM	1.0
+MSNBC	EL-337	Minneapolis-St. Paul	USN16443053.txt:509-528	http://en.wikipedia.org/wiki/Minneapolis-St._Paul	PER	NAM	1.0
+MSNBC	EL-338	Columbus	USN16443053.txt:531-538	http://en.wikipedia.org/wiki/Columbus,_Ohio	PER	NAM	1.0
+MSNBC	EL-339	Ohio	USN16443053.txt:541-544	http://en.wikipedia.org/wiki/Ohio	PER	NAM	1.0
+MSNBC	EL-340	Sioux Falls	USN16443053.txt:547-557	http://en.wikipedia.org/wiki/Sioux_Falls,_South_Dakota	PER	NAM	1.0
+MSNBC	EL-341	S.D.	USN16443053.txt:560-563	http://en.wikipedia.org/wiki/South_Dakota	PER	NAM	1.0
+MSNBC	EL-342	Laramie County	USN16443053.txt:570-583	http://en.wikipedia.org/wiki/Laramie_County,_Wyoming	PER	NAM	1.0
+MSNBC	EL-343	Wyo.	USN16443053.txt:586-589	http://en.wikipedia.org/wiki/Wyoming	PER	NAM	1.0
+MSNBC	EL-344	Chicago	USN16443053.txt:620-626	http://en.wikipedia.org/wiki/Chicago,_Illinois	PER	NAM	1.0
+MSNBC	EL-345	Cleveland	USN16443053.txt:629-637	http://en.wikipedia.org/wiki/Cleveland,_Ohio	PER	NAM	1.0
+MSNBC	EL-346	Baton Rouge	USN16443053.txt:640-650	http://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana	PER	NAM	1.0
+MSNBC	EL-347	La.	USN16443053.txt:653-655	http://en.wikipedia.org/wiki/Louisiana	PER	NAM	1.0
+MSNBC	EL-348	Mandan	USN16443053.txt:658-663	http://en.wikipedia.org/wiki/Mandan,_North_Dakota	PER	NAM	1.0
+MSNBC	EL-349	N.D.	USN16443053.txt:666-669	http://en.wikipedia.org/wiki/North_Dakota	PER	NAM	1.0
+MSNBC	EL-350	American Samoa	USN16443053.txt:676-689	http://en.wikipedia.org/wiki/American_Samoa	PER	NAM	1.0
+MSNBC	EL-351	U.S. territories	USN16443053.txt:765-780	http://en.wikipedia.org/wiki/U.S._territories	PER	NAM	1.0
+MSNBC	EL-352	Homeland Security Department	USN16443053.txt:1193-1220	http://en.wikipedia.org/wiki/United_States_Department_of_Homeland_Security	PER	NAM	1.0
+MSNBC	EL-353	Congress	USN16443053.txt:1275-1282	http://en.wikipedia.org/wiki/United_States_Congress	PER	NAM	1.0
+MSNBC	EL-354	Charles Schumer	USN16443053.txt:1720-1734	http://en.wikipedia.org/wiki/Charles_Schumer	PER	NAM	1.0
+MSNBC	EL-355	Homeland Security	USN16443053.txt:1833-1849	http://en.wikipedia.org/wiki/United_States_Department_of_Homeland_Security	PER	NAM	1.0
+MSNBC	EL-356	Russ Knocke	USN16443053.txt:1861-1871	http://en.wikipedia.org/wiki/Russ_Knocke	PER	NAM	1.0
+MSNBC	EL-357	Homeland Security	USN16443053.txt:1953-1969	http://en.wikipedia.org/wiki/United_States_Department_of_Homeland_Security	PER	NAM	1.0
+MSNBC	EL-358	Michael Chertoff	USN16443053.txt:1981-1996	http://en.wikipedia.org/wiki/Michael_Chertoff	PER	NAM	1.0
+MSNBC	EL-359	New York	USN16443053.txt:2106-2113	http://en.wikipedia.org/wiki/New_York_City	PER	NAM	1.0
+MSNBC	EL-360	World Trade Center	USN16443053.txt:2287-2304	http://en.wikipedia.org/wiki/World_Trade_Center	PER	NAM	1.0
+MSNBC	EL-361	New York	USN16443053.txt:2410-2417	http://en.wikipedia.org/wiki/New_York_City	PER	NAM	1.0
+MSNBC	EL-362	New York	USN16443053.txt:2603-2610	http://en.wikipedia.org/wiki/New_York_City	PER	NAM	1.0
+MSNBC	EL-363	Hurricane Katrina	USN16443053.txt:2638-2654	http://en.wikipedia.org/wiki/Hurricane_Katrina	PER	NAM	1.0
+MSNBC	EL-364	Los Angeles	USN16443053.txt:3585-3595	http://en.wikipedia.org/wiki/Los_Angeles._California	PER	NAM	1.0
+MSNBC	EL-365	San Francisco	USN16443053.txt:3736-3748	http://en.wikipedia.org/wiki/San_Francisco,_California	PER	NAM	1.0
+MSNBC	EL-366	Congress	USN16443053.txt:4092-4099	http://en.wikipedia.org/wiki/United_States_Congress	PER	NAM	1.0
+MSNBC	EL-367	Homeland Security Department	USN16443053.txt:4299-4326	http://en.wikipedia.org/wiki/United_States_Department_of_Homeland_Security	PER	NAM	1.0
+MSNBC	EL-368	Chicago	USN16443053.txt:4637-4643	http://en.wikipedia.org/wiki/Chicago,_Illinois	PER	NAM	1.0
+MSNBC	EL-369	Cleveland	USN16443053.txt:4646-4654	http://en.wikipedia.org/wiki/Cleveland,_Ohio	PER	NAM	1.0
+MSNBC	EL-370	Baton Rouge	USN16443053.txt:4660-4670	http://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana	PER	NAM	1.0
+MSNBC	EL-371	Mandan	USN16443053.txt:4763-4768	http://en.wikipedia.org/wiki/Mandan,_North_Dakota	PER	NAM	1.0
+MSNBC	EL-372	N.D.	USN16443053.txt:4771-4774	http://en.wikipedia.org/wiki/North_Dakota	PER	NAM	1.0
+MSNBC	EL-373	American Samoa	USN16443053.txt:4798-4811	http://en.wikipedia.org/wiki/American_Samoa	PER	NAM	1.0
+MSNBC	EL-374	Tammy Lapp	USN16443053.txt:4983-4992	http://en.wikipedia.org/wiki/Tammy_Lapp	PER	NAM	1.0
+MSNBC	EL-375	Mandan	USN16443053.txt:5025-5030	http://en.wikipedia.org/wiki/Mandan,_North_Dakota	PER	NAM	1.0
+MSNBC	EL-376	Morton County	USN16443053.txt:5036-5048	http://en.wikipedia.org/wiki/Morton_County,_North_Dakota	PER	NAM	1.0
+MSNBC	EL-377	N.D.	USN16443053.txt:5051-5054	http://en.wikipedia.org/wiki/North_Dakota	PER	NAM	1.0
+MSNBC	EL-378	Ganges	Wor16447201.txt:17-22	http://en.wikipedia.org/wiki/Ganges_River	PER	NAM	1.0
+MSNBC	EL-379	ALLAHABAD	Wor16447201.txt:124-132	http://en.wikipedia.org/wiki/Allahabad	PER	NAM	1.0
+MSNBC	EL-380	India	Wor16447201.txt:135-139	http://en.wikipedia.org/wiki/India	PER	NAM	1.0
+MSNBC	EL-381	Ganges river	Wor16447201.txt:255-266	http://en.wikipedia.org/wiki/Ganges_River	PER	NAM	1.0
+MSNBC	EL-382	northern India	Wor16447201.txt:271-284	http://en.wikipedia.org/wiki/North_India	PER	NAM	1.0
+MSNBC	EL-383	India	Wor16447201.txt:280-284	http://en.wikipedia.org/wiki/India	PER	NAM	1.0
+MSNBC	EL-384	Ardh Kumbh Mela	Wor16447201.txt:421-435	http://en.wikipedia.org/wiki/Ardh_Kumbh_Mela	PER	NAM	1.0
+MSNBC	EL-385	Half Pitcher Festival	Wor16447201.txt:441-461	http://en.wikipedia.org/wiki/Half_Pitcher_Festival	PER	NAM	1.0
+MSNBC	EL-386	Ganges	Wor16447201.txt:608-613	http://en.wikipedia.org/wiki/Ganges_River	PER	NAM	1.0
+MSNBC	EL-387	Yamuna	Wor16447201.txt:620-625	http://en.wikipedia.org/wiki/Yamuna	PER	NAM	1.0
+MSNBC	EL-388	Allahabad	Wor16447201.txt:657-665	http://en.wikipedia.org/wiki/Allahabad	PER	NAM	1.0
+MSNBC	EL-389	Hindu scriptures	Wor16447201.txt:808-823	http://en.wikipedia.org/wiki/Hindu_scripture	PER	NAM	1.0
+MSNBC	EL-390	Maha Kumbh Mela	Wor16447201.txt:992-1006	http://en.wikipedia.org/wiki/Kumbh_Mela	PER	NAM	1.0
+MSNBC	EL-391	Great Pitcher Festival	Wor16447201.txt:1016-1037	http://en.wikipedia.org/wiki/Great_Pitcher_Festival	PER	NAM	1.0
+MSNBC	EL-392	Ganges	Wor16447201.txt:1110-1115	http://en.wikipedia.org/wiki/Ganges_River	PER	NAM	1.0
+MSNBC	EL-393	Kumbh Mela	Wor16447201.txt:1505-1514	http://en.wikipedia.org/wiki/Kumbh_Mela	PER	NAM	1.0
+MSNBC	EL-394	Naba Kumar Ghosh	Wor16447201.txt:1523-1538	http://en.wikipedia.org/wiki/Naba_Kumar_Ghosh	PER	NAM	1.0
+MSNBC	EL-395	West Bengal	Wor16447201.txt:1597-1607	http://en.wikipedia.org/wiki/West_Bengal	PER	NAM	1.0
+MSNBC	EL-396	Shakuntala	Wor16447201.txt:1699-1708	NIL	PER	NAM	1.0
+MSNBC	EL-397	Madhya Pradesh	Wor16447201.txt:1816-1829	http://en.wikipedia.org/wiki/Madhya_Pradesh	PER	NAM	1.0
+MSNBC	EL-398	Ganges	Wor16447201.txt:1847-1852	http://en.wikipedia.org/wiki/Ganges_River	PER	NAM	1.0
+MSNBC	EL-399	Kumbh Mela	Wor16447201.txt:1885-1894	http://en.wikipedia.org/wiki/Kumbh_Mela	PER	NAM	1.0
+MSNBC	EL-400	Kumbh	Wor16447201.txt:2055-2059	http://en.wikipedia.org/wiki/Kumbh_Mela	PER	NAM	1.0
+MSNBC	EL-401	Rama Devi	Wor16447201.txt:2071-2079	http://en.wikipedia.org/wiki/Rama_Devi	PER	NAM	1.0
+MSNBC	EL-402	Allahabad	Wor16447201.txt:2100-2108	http://en.wikipedia.org/wiki/Allahabad	PER	NAM	1.0
+MSNBC	EL-403	Kumbh	Wor16447201.txt:2166-2170	http://en.wikipedia.org/wiki/Kumbh_Mela	PER	NAM	1.0
+MSNBC	EL-404	Indian army	Wor16447201.txt:2314-2324	http://en.wikipedia.org/wiki/Indian_army	PER	NAM	1.0
+MSNBC	EL-405	Allahabad	Wor16447201.txt:2422-2430	http://en.wikipedia.org/wiki/Allahabad	PER	NAM	1.0
+MSNBC	EL-406	Hindi	Wor16447201.txt:2440-2444	http://en.wikipedia.org/wiki/Hindi	PER	NAM	1.0
+MSNBC	EL-407	Uttar Pradesh	Wor16447201.txt:2465-2477	http://en.wikipedia.org/wiki/Uttar_Pradesh	PER	NAM	1.0
+MSNBC	EL-408	Garuda	Wor16447201.txt:2507-2512	http://en.wikipedia.org/wiki/Garuda	PER	NAM	1.0
+MSNBC	EL-409	Hindu god	Wor16447201.txt:2535-2543	http://en.wikipedia.org/wiki/Hindu_deities	PER	NAM	1.0
+MSNBC	EL-410	Vishnu	Wor16447201.txt:2545-2550	http://en.wikipedia.org/wiki/Vishnu	PER	NAM	1.0
+MSNBC	EL-411	Garuda	Wor16447201.txt:2663-2668	http://en.wikipedia.org/wiki/Garuda	PER	NAM	1.0
+MSNBC	EL-412	Maha Kumbh Mela	Wor16447201.txt:2756-2770	http://en.wikipedia.org/wiki/Kumbh_Mela	PER	NAM	1.0
+MSNBC	EL-413	Maha Kumbh	Wor16447201.txt:2948-2957	http://en.wikipedia.org/wiki/Maha_Kumbh	PER	NAM	1.0
+MSNBC	EL-414	Maha Kumbh Mela	Wor16447201.txt:2969-2983	http://en.wikipedia.org/wiki/Kumbh_Mela	PER	NAM	1.0
+MSNBC	EL-415	Guinness Book of Records	Wor16447201.txt:3032-3055	http://en.wikipedia.org/wiki/Guinness_World_Records	PER	NAM	1.0
+MSNBC	EL-416	London's Heathrow Airport	Tra16454203.txt:73-97	http://en.wikipedia.org/wiki/London_Heathrow_Airport	PER	NAM	1.0
+MSNBC	EL-417	LONDON	Tra16454203.txt:124-129	http://en.wikipedia.org/wiki/London	PER	NAM	1.0
+MSNBC	EL-418	London's Heathrow Airport	Tra16454203.txt:234-258	http://en.wikipedia.org/wiki/London_Heathrow_Airport	PER	NAM	1.0
+MSNBC	EL-419	Heathrow	Tra16454203.txt:243-250	http://en.wikipedia.org/wiki/Heathrow,_London	PER	NAM	1.0
+MSNBC	EL-420	British Airways	Tra16454203.txt:411-425	http://en.wikipedia.org/wiki/British_Airways	PER	NAM	1.0
+MSNBC	EL-421	BA	Tra16454203.txt:468-469	http://en.wikipedia.org/wiki/British_Airways	PER	NAM	1.0
+MSNBC	EL-422	Heathrow	Tra16454203.txt:598-605	http://en.wikipedia.org/wiki/Heathrow,_London	PER	NAM	1.0
+MSNBC	EL-423	BA	Tra16454203.txt:640-641	http://en.wikipedia.org/wiki/British_Airways	PER	NAM	1.0
+MSNBC	EL-424	BA	Tra16454203.txt:817-818	http://en.wikipedia.org/wiki/British_Airways	PER	NAM	1.0
+MSNBC	EL-425	Heathrow	Tra16454203.txt:958-965	http://en.wikipedia.org/wiki/Heathrow,_London	PER	NAM	1.0
+MSNBC	EL-426	Heathrow	Tra16454203.txt:1205-1212	http://en.wikipedia.org/wiki/Heathrow,_London	PER	NAM	1.0
+MSNBC	EL-427	BA	Tra16454203.txt:1345-1346	http://en.wikipedia.org/wiki/British_Airways	PER	NAM	1.0
+MSNBC	EL-428	China	Tec16451635.txt:22-26	http://en.wikipedia.org/wiki/People's_Republic_of_China	PER	NAM	1.0
+MSNBC	EL-429	BEIJING	Tec16451635.txt:96-102	http://en.wikipedia.org/wiki/Beijing	PER	NAM	1.0
+MSNBC	EL-430	China	Tec16451635.txt:189-193	http://en.wikipedia.org/wiki/People's_Republic_of_China	PER	NAM	1.0
+MSNBC	EL-431	Cao Qingyao	Tec16451635.txt:360-370	http://en.wikipedia.org/wiki/Cao_Qingyao	PER	NAM	1.0
+MSNBC	EL-432	State Forestry Administration	Tec16451635.txt:393-421	http://en.wikipedia.org/wiki/State_Forestry_Administration	PER	NAM	1.0
+MSNBC	EL-433	Xinhua News Agency	Tec16451635.txt:452-469	http://en.wikipedia.org/wiki/Xinhua_News_Agency	PER	NAM	1.0
+MSNBC	EL-434	China	Tec16451635.txt:526-530	http://en.wikipedia.org/wiki/People's_Republic_of_China	PER	NAM	1.0
+MSNBC	EL-435	China	Tec16451635.txt:572-576	http://en.wikipedia.org/wiki/People's_Republic_of_China	PER	NAM	1.0
+MSNBC	EL-436	Sichuan	Tec16451635.txt:721-727	http://en.wikipedia.org/wiki/Sichuan	PER	NAM	1.0
+MSNBC	EL-437	Chengdu Research Base	Tec16451635.txt:829-849	http://en.wikipedia.org/wiki/Chengdu_Research_Base	PER	NAM	1.0
+MSNBC	EL-438	Chongqing	Tec16451635.txt:917-925	http://en.wikipedia.org/wiki/Chongqing	PER	NAM	1.0
+MSNBC	EL-439	China	Tec16451635.txt:1018-1022	http://en.wikipedia.org/wiki/People's_Republic_of_China	PER	NAM	1.0
+MSNBC	EL-440	Sichuan	Tec16451635.txt:1035-1041	http://en.wikipedia.org/wiki/Sichuan	PER	NAM	1.0
+MSNBC	EL-441	Shaanxi	Tec16451635.txt:1071-1077	http://en.wikipedia.org/wiki/Shaanxi	PER	NAM	1.0
+MSNBC	EL-442	BIRMINGHAM	Hea16451212.txt:121-130	http://en.wikipedia.org/wiki/Birmingham,_Alabama	PER	NAM	1.0
+MSNBC	EL-443	Ala.	Hea16451212.txt:133-136	http://en.wikipedia.org/wiki/Alabama	PER	NAM	1.0
+MSNBC	EL-444	Al Rohling	Hea16451212.txt:151-160	http://en.wikipedia.org/wiki/Al_Rohling	PER	NAM	1.0
+MSNBC	EL-445	U.S. government	Hea16451212.txt:291-305	http://en.wikipedia.org/wiki/U.S._government	PER	NAM	1.0
+MSNBC	EL-446	Rohling	Hea16451212.txt:324-330	http://en.wikipedia.org/wiki/Al_Rohling	PER	NAM	1.0
+MSNBC	EL-447	Alabama	Hea16451212.txt:346-352	http://en.wikipedia.org/wiki/Alabama	PER	NAM	1.0
+MSNBC	EL-448	Rohling	Hea16451212.txt:630-636	http://en.wikipedia.org/wiki/Al_Rohling	PER	NAM	1.0
+MSNBC	EL-449	Rohling	Hea16451212.txt:642-648	http://en.wikipedia.org/wiki/Al_Rohling	PER	NAM	1.0
+MSNBC	EL-450	Child Caring Foundation	Hea16451212.txt:690-712	http://en.wikipedia.org/wiki/Child_Caring_Foundation	PER	NAM	1.0
+MSNBC	EL-451	Blue Cross and Blue Shield of Alabama	Hea16451212.txt:777-813	http://en.wikipedia.org/wiki/Blue_Cross_and_Blue_Shield_of_Alabama	PER	NAM	1.0
+MSNBC	EL-452	Medicaid	Hea16451212.txt:917-924	http://en.wikipedia.org/wiki/Medicaid	PER	NAM	1.0
+MSNBC	EL-453	U.S.	Hea16451212.txt:1105-1108	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-454	United States	Hea16451212.txt:1136-1148	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-455	Jennifer Tolbert	Hea16451212.txt:1428-1443	http://en.wikipedia.org/wiki/Jennifer_Tolbert	PER	NAM	1.0
+MSNBC	EL-456	Washington	Hea16451212.txt:1524-1533	http://en.wikipedia.org/wiki/Washington,_D.C.	PER	NAM	1.0
+MSNBC	EL-457	Tolbert	Hea16451212.txt:1556-1562	http://en.wikipedia.org/wiki/Jennifer_Tolbert	PER	NAM	1.0
+MSNBC	EL-458	U.S. Congress	Hea16451212.txt:1589-1601	http://en.wikipedia.org/wiki/United_States_Congress	PER	NAM	1.0
+MSNBC	EL-459	State Children's Health Insurance Program	Hea16451212.txt:1635-1675	http://en.wikipedia.org/wiki/State_Children's_Health_Insurance_Program	PER	NAM	1.0
+MSNBC	EL-460	SCHIP	Hea16451212.txt:1678-1682	http://en.wikipedia.org/wiki/State_Children's_Health_Insurance_Program	PER	NAM	1.0
+MSNBC	EL-461	Alabama	Hea16451212.txt:2106-2112	http://en.wikipedia.org/wiki/Alabama	PER	NAM	1.0
+MSNBC	EL-462	Child Caring Foundation	Hea16451212.txt:2227-2249	http://en.wikipedia.org/wiki/Child_Caring_Foundation	PER	NAM	1.0
+MSNBC	EL-463	Jody Sharp	Hea16451212.txt:2274-2283	http://en.wikipedia.org/wiki/Jody_Sharp	PER	NAM	1.0
+MSNBC	EL-464	Dana	Hea16451212.txt:2395-2398	NIL	PER	NAM	1.0
+MSNBC	EL-465	Dana	Hea16451212.txt:2465-2468	NIL	PER	NAM	1.0
+MSNBC	EL-466	Kyle	Hea16451212.txt:2480-2483	NIL	PER	NAM	1.0
+MSNBC	EL-467	Sharp	Hea16451212.txt:2521-2525	http://en.wikipedia.org/wiki/Jody_Sharp	PER	NAM	1.0
+MSNBC	EL-468	Sharp	Hea16451212.txt:2590-2594	http://en.wikipedia.org/wiki/Jody_Sharp	PER	NAM	1.0
+MSNBC	EL-469	Sharp	Hea16451212.txt:2808-2812	http://en.wikipedia.org/wiki/Jody_Sharp	PER	NAM	1.0
+MSNBC	EL-470	Reuters	Hea16451212.txt:2819-2825	http://en.wikipedia.org/wiki/Reuters	PER	NAM	1.0
+MSNBC	EL-471	Alabama Blue Cross Blue Shield	Hea16451212.txt:2861-2890	http://en.wikipedia.org/wiki/Alabama_Blue_Cross_Blue_Shield	PER	NAM	1.0
+MSNBC	EL-472	Sharp	Hea16451212.txt:2901-2905	http://en.wikipedia.org/wiki/Jody_Sharp	PER	NAM	1.0
+MSNBC	EL-473	Sharp	Hea16451212.txt:3377-3381	http://en.wikipedia.org/wiki/Jody_Sharp	PER	NAM	1.0
+MSNBC	EL-474	Rohling	Hea16451212.txt:3420-3426	http://en.wikipedia.org/wiki/Al_Rohling	PER	NAM	1.0
+MSNBC	EL-475	University of Alabama at Birmingham	Hea16451212.txt:3521-3555	http://en.wikipedia.org/wiki/University_of_Alabama_at_Birmingham	PER	NAM	1.0
+MSNBC	EL-476	School of Nursing	Hea16451212.txt:3557-3573	http://en.wikipedia.org/wiki/School_of_Nursing	PER	NAM	1.0
+MSNBC	EL-477	Pittsburgh	Hea16451212.txt:3887-3896	http://en.wikipedia.org/wiki/Pittsburgh,_Pennsylvania	PER	NAM	1.0
+MSNBC	EL-478	Highmark Blue Cross Blue Shield	Hea16451212.txt:3911-3941	http://en.wikipedia.org/wiki/Highmark	PER	NAM	1.0
+MSNBC	EL-479	Western Pennsylvania	Hea16451212.txt:3946-3965	http://en.wikipedia.org/wiki/Western_Pennsylvania	PER	NAM	1.0
+MSNBC	EL-480	Denise Grabner	Hea16451212.txt:4185-4198	http://en.wikipedia.org/wiki/Denise_Grabner	PER	NAM	1.0
+MSNBC	EL-481	Highmark	Hea16451212.txt:4203-4210	http://en.wikipedia.org/wiki/Highmark	PER	NAM	1.0
+MSNBC	EL-482	Congress	Hea16451212.txt:4291-4298	http://en.wikipedia.org/wiki/United_States_Congress	PER	NAM	1.0
+MSNBC	EL-483	SCHIP	Hea16451212.txt:4312-4316	http://en.wikipedia.org/wiki/State_Children's_Health_Insurance_Program	PER	NAM	1.0
+MSNBC	EL-484	Alabama	Hea16451212.txt:4354-4360	http://en.wikipedia.org/wiki/Alabama	PER	NAM	1.0
+MSNBC	EL-485	All Kids	Hea16451212.txt:4418-4425	http://en.wikipedia.org/wiki/All_Kids	PER	NAM	1.0
+MSNBC	EL-486	Medicaid	Hea16451212.txt:4585-4592	http://en.wikipedia.org/wiki/Medicaid	PER	NAM	1.0
+MSNBC	EL-487	Rohling	Hea16451212.txt:4769-4775	http://en.wikipedia.org/wiki/Al_Rohling	PER	NAM	1.0
+MSNBC	EL-488	U.S.	USN16444287.txt:12-15	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-489	Las Vegas	USN16444287.txt:112-120	http://en.wikipedia.org/wiki/Las_Vegas,_Nevada	PER	NAM	1.0
+MSNBC	EL-490	FRESNO	USN16444287.txt:125-130	http://en.wikipedia.org/wiki/Fresno,_California	PER	NAM	1.0
+MSNBC	EL-491	Calif.	USN16444287.txt:133-138	http://en.wikipedia.org/wiki/California	PER	NAM	1.0
+MSNBC	EL-492	Las Vegas	USN16444287.txt:270-278	http://en.wikipedia.org/wiki/Las_Vegas,_Nevada	PER	NAM	1.0
+MSNBC	EL-493	U.S.	USN16444287.txt:377-380	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-494	Majed Shehadeh	USN16444287.txt:408-421	http://en.wikipedia.org/wiki/Majed_Shehadeh	PER	NAM	1.0
+MSNBC	EL-495	Shehadeh	USN16444287.txt:414-421	http://en.wikipedia.org/wiki/Majed_Shehadeh	PER	NAM	1.0
+MSNBC	EL-496	Frankfurt	USN16444287.txt:488-496	http://en.wikipedia.org/wiki/Frankfurt	PER	NAM	1.0
+MSNBC	EL-497	Las Vegas	USN16444287.txt:501-509	http://en.wikipedia.org/wiki/Las_Vegas,_Nevada	PER	NAM	1.0
+MSNBC	EL-498	Bakersfield	USN16444287.txt:568-578	http://en.wikipedia.org/wiki/Bakersfield,_California	PER	NAM	1.0
+MSNBC	EL-499	California	USN16444287.txt:581-590	http://en.wikipedia.org/wiki/California	PER	NAM	1.0
+MSNBC	EL-500	California	USN16444287.txt:666-675	http://en.wikipedia.org/wiki/California	PER	NAM	1.0
+MSNBC	EL-501	Roxanne Hercules	USN16444287.txt:807-822	http://en.wikipedia.org/wiki/Roxanne_Hercules	PER	NAM	1.0
+MSNBC	EL-502	U.S. Customs and Border Protection	USN16444287.txt:843-876	http://en.wikipedia.org/wiki/U.S._Customs_and_Border_Protection	PER	NAM	1.0
+MSNBC	EL-503	Shehadeh	USN16444287.txt:902-909	http://en.wikipedia.org/wiki/Majed_Shehadeh	PER	NAM	1.0
+MSNBC	EL-504	Shehadeh	USN16444287.txt:983-990	http://en.wikipedia.org/wiki/Majed_Shehadeh	PER	NAM	1.0
+MSNBC	EL-505	Islamic scholar	USN16444287.txt:1264-1278	http://en.wikipedia.org/wiki/List_of_Islamic_studies_scholars	PER	NAM	1.0
+MSNBC	EL-506	South Africa	USN16444287.txt:1285-1296	http://en.wikipedia.org/wiki/South_Africa	PER	NAM	1.0
+MSNBC	EL-507	San Francisco International Airport	USN16444287.txt:1318-1352	http://en.wikipedia.org/wiki/San_Francisco_International_Airport	PER	NAM	1.0
+MSNBC	EL-508	US Airways	USN16444287.txt:1397-1406	http://en.wikipedia.org/wiki/US_Airways	PER	NAM	1.0
+MSNBC	EL-509	Minneapolis	USN16444287.txt:1420-1430	http://en.wikipedia.org/wiki/Minneapolis	PER	NAM	1.0
+MSNBC	EL-510	Phoenix	USN16444287.txt:1435-1441	http://en.wikipedia.org/wiki/Phoenix,_Arizona	PER	NAM	1.0
+MSNBC	EL-511	Iraq	USN16444287.txt:1513-1516	http://en.wikipedia.org/wiki/Iraq	PER	NAM	1.0
+MSNBC	EL-512	Affad Shaikh	USN16444287.txt:1653-1664	NIL	PER	NAM	1.0
+MSNBC	EL-513	CAIR	USN16444287.txt:1698-1701	http://en.wikipedia.org/wiki/Council_on_American-Islamic_Relations	PER	NAM	1.0
+MSNBC	EL-514	Shehadeh	USN16444287.txt:1738-1745	http://en.wikipedia.org/wiki/Majed_Shehadeh	PER	NAM	1.0
+MSNBC	EL-515	Condor Airlines	USN16444287.txt:1791-1805	http://en.wikipedia.org/wiki/Condor_Airlines	PER	NAM	1.0
+MSNBC	EL-516	McCarran International Airport	USN16444287.txt:1817-1846	http://en.wikipedia.org/wiki/McCarran_International_Airport	PER	NAM	1.0
+MSNBC	EL-517	Las Vegas	USN16444287.txt:1947-1955	http://en.wikipedia.org/wiki/Las_Vegas,_Nevada	PER	NAM	1.0
+MSNBC	EL-518	New Year	USN16444287.txt:2004-2011	http://en.wikipedia.org/wiki/New_Year	PER	NAM	1.0
+MSNBC	EL-519	Central California	USN16444287.txt:2056-2073	http://en.wikipedia.org/wiki/Central_California	PER	NAM	1.0
+MSNBC	EL-520	Shehadeh	USN16444287.txt:2236-2243	http://en.wikipedia.org/wiki/Majed_Shehadeh	PER	NAM	1.0
+MSNBC	EL-521	Alzenau	USN16444287.txt:2296-2302	http://en.wikipedia.org/wiki/Alzenau	PER	NAM	1.0
+MSNBC	EL-522	Washington	USN16444287.txt:2451-2460	http://en.wikipedia.org/wiki/Federal_government_of_the_United_States	PER	NAM	1.0
+MSNBC	EL-523	Border Protection	USN16444287.txt:2495-2511	http://en.wikipedia.org/wiki/Border_Protection	PER	NAM	1.0
+MSNBC	EL-524	FBI	USN16444287.txt:2517-2519	http://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation	PER	NAM	1.0
+MSNBC	EL-525	Shehadeh	USN16444287.txt:2567-2574	http://en.wikipedia.org/wiki/Majed_Shehadeh	PER	NAM	1.0
+MSNBC	EL-526	North Las Vegas	USN16444287.txt:2646-2660	http://en.wikipedia.org/wiki/North_Las_Vegas,_Nevada	PER	NAM	1.0
+MSNBC	EL-527	Shehadeh	USN16444287.txt:2714-2721	http://en.wikipedia.org/wiki/Majed_Shehadeh	PER	NAM	1.0
+MSNBC	EL-528	U.S.	USN16444287.txt:2790-2793	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-529	Joanne Mulligan	USN16444287.txt:2839-2853	http://en.wikipedia.org/wiki/Joanne_Mulligan	PER	NAM	1.0
+MSNBC	EL-530	U.S. Immigration and Customs Enforcement	USN16444287.txt:2874-2913	http://en.wikipedia.org/wiki/U.S._Immigration_and_Customs_Enforcement	PER	NAM	1.0
+MSNBC	EL-531	FBI	USN16444287.txt:2971-2973	http://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation	PER	NAM	1.0
+MSNBC	EL-532	Las Vegas	USN16444287.txt:3000-3008	http://en.wikipedia.org/wiki/Las_Vegas,_Nevada	PER	NAM	1.0
+MSNBC	EL-533	Dianne Feinstein	USN16444287.txt:3088-3103	http://en.wikipedia.org/wiki/Dianne_Feinstein	PER	NAM	1.0
+MSNBC	EL-534	Shehadeh	USN16444287.txt:3132-3139	http://en.wikipedia.org/wiki/Majed_Shehadeh	PER	NAM	1.0
+MSNBC	EL-535	Mulligan	USN16444287.txt:3167-3174	http://en.wikipedia.org/wiki/Joanne_Mulligan	PER	NAM	1.0
+MSNBC	EL-536	Feinstein	USN16444287.txt:3182-3190	http://en.wikipedia.org/wiki/Dianne_Feinstein	PER	NAM	1.0
+MSNBC	EL-537	Mulligan	USN16444287.txt:3364-3371	http://en.wikipedia.org/wiki/Joanne_Mulligan	PER	NAM	1.0
+MSNBC	EL-538	U.S. military	USN16444287.txt:3405-3417	http://en.wikipedia.org/wiki/Military_of_the_United_States	PER	NAM	1.0
+MSNBC	EL-539	Shehadeh	USN16444287.txt:3578-3585	http://en.wikipedia.org/wiki/Majed_Shehadeh	PER	NAM	1.0
+MSNBC	EL-540	Frankfurt	USN16444287.txt:3864-3872	http://en.wikipedia.org/wiki/Frankfurt	PER	NAM	1.0
+MSNBC	EL-541	Shehadeh	USN16444287.txt:3906-3913	http://en.wikipedia.org/wiki/Majed_Shehadeh	PER	NAM	1.0
+MSNBC	EL-542	Majida Shehadeh	USN16444287.txt:3926-3940	http://en.wikipedia.org/wiki/Majida_Shehadeh	PER	NAM	1.0
+MSNBC	EL-543	Al-Maliki	Wor13259309.txt:0-8	http://en.wikipedia.org/wiki/Nouri_al-Maliki	PER	NAM	1.0
+MSNBC	EL-544	BAGHDAD	Wor13259309.txt:79-85	http://en.wikipedia.org/wiki/Baghdad	PER	NAM	1.0
+MSNBC	EL-545	Iraq	Wor13259309.txt:88-91	http://en.wikipedia.org/wiki/Iraq	PER	NAM	1.0
+MSNBC	EL-546	Iraq	Wor13259309.txt:95-98	http://en.wikipedia.org/wiki/Iraq	PER	NAM	1.0
+MSNBC	EL-547	NBC News	Wor13259309.txt:133-140	http://en.wikipedia.org/wiki/NBC_News	PER	NAM	1.0
+MSNBC	EL-548	Saddam Hussein	Wor13259309.txt:227-240	http://en.wikipedia.org/wiki/Saddam_Hussein	PER	NAM	1.0
+MSNBC	EL-549	Saddam Hussein	Wor13259309.txt:368-381	http://en.wikipedia.org/wiki/Saddam_Hussein	PER	NAM	1.0
+MSNBC	EL-550	Mowaffak al-Rubaie	Wor13259309.txt:422-439	http://en.wikipedia.org/wiki/Mouwafak_al-Rabii	PER	NAM	1.0
+MSNBC	EL-551	Saddam	Wor13259309.txt:553-558	http://en.wikipedia.org/wiki/Saddam_Hussein	PER	NAM	1.0
+MSNBC	EL-552	Iraqi forces	Wor13259309.txt:870-881	http://en.wikipedia.org/wiki/New_Iraqi_Army	PER	NAM	1.0
+MSNBC	EL-553	Saddam	Wor13259309.txt:935-940	http://en.wikipedia.org/wiki/Saddam_Hussein	PER	NAM	1.0
+MSNBC	EL-554	Al-Jazeera	Wor13259309.txt:1059-1068	http://en.wikipedia.org/wiki/Al_Jazeera	PER	NAM	1.0
+MSNBC	EL-555	Internet	Wor13259309.txt:1089-1096	http://en.wikipedia.org/wiki/Internet	PER	NAM	1.0
+MSNBC	EL-556	Saddam	Wor13259309.txt:1121-1126	http://en.wikipedia.org/wiki/Saddam_Hussein	PER	NAM	1.0
+MSNBC	EL-557	Associated Press	Wor13259309.txt:1148-1163	http://en.wikipedia.org/wiki/Associated_Press	PER	NAM	1.0
+MSNBC	EL-558	Nouri al-Maliki	Wor13259309.txt:1214-1228	http://en.wikipedia.org/wiki/Nouri_al-Maliki	PER	NAM	1.0
+MSNBC	EL-559	Al-Maliki	Wor13259309.txt:1309-1317	http://en.wikipedia.org/wiki/Nouri_Al-Maliki	PER	NAM	1.0
+MSNBC	EL-560	Saddam	Wor13259309.txt:1442-1447	http://en.wikipedia.org/wiki/Saddam_Hussein	PER	NAM	1.0
+MSNBC	EL-561	U.S. military	Wor13259309.txt:1489-1501	http://en.wikipedia.org/wiki/Military_of_the_United_States	PER	NAM	1.0
+MSNBC	EL-562	United States	Wor13259309.txt:1534-1546	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-563	al-Rubaie	Wor13259309.txt:1791-1799	http://en.wikipedia.org/wiki/Mouwafak_al-Rabii	PER	NAM	1.0
+MSNBC	EL-564	Mowaffak al-Rubaie	Wor13259309.txt:1872-1889	http://en.wikipedia.org/wiki/Mouwafak_al-Rabii	PER	NAM	1.0
+MSNBC	EL-565	Munqith al-Faroon	Wor13259309.txt:1932-1948	http://en.wikipedia.org/wiki/Munqith_al-Faroon	PER	NAM	1.0
+MSNBC	EL-566	Saddam	Wor13259309.txt:1986-1991	http://en.wikipedia.org/wiki/Saddam_Hussein	PER	NAM	1.0
+MSNBC	EL-567	The Associated Press	Wor13259309.txt:2014-2033	http://en.wikipedia.org/wiki/The_Associated_Press	PER	NAM	1.0
+MSNBC	EL-568	al-Faroon	Wor13259309.txt:2332-2340	http://en.wikipedia.org/wiki/Munqith_al-Faroon	PER	NAM	1.0
+MSNBC	EL-569	Al-Jazeera	Wor13259309.txt:2498-2507	http://en.wikipedia.org/wiki/Al_Jazeera	PER	NAM	1.0
+MSNBC	EL-570	Web site	Wor13259309.txt:2525-2532	http://en.wikipedia.org/wiki/Website	PER	NAM	1.0
+MSNBC	EL-571	Saddam	Wor13259309.txt:2550-2555	http://en.wikipedia.org/wiki/Saddam_Hussein	PER	NAM	1.0
+MSNBC	EL-572	New York Times	Wor13259309.txt:2577-2590	http://en.wikipedia.org/wiki/New_York_Times	PER	NAM	1.0
+MSNBC	EL-573	al-Faroon	Wor13259309.txt:2619-2627	http://en.wikipedia.org/wiki/Munqith_al-Faroon	PER	NAM	1.0
+MSNBC	EL-574	Hussein	Wor13259309.txt:2733-2739	http://en.wikipedia.org/wiki/Saddam_Hussein	PER	NAM	1.0
+MSNBC	EL-575	Mowaffak al-Rubaie	Wor13259309.txt:2820-2837	http://en.wikipedia.org/wiki/Mouwafak_al-Rabii	PER	NAM	1.0
+MSNBC	EL-576	Maliki	Wor13259309.txt:2844-2849	http://en.wikipedia.org/wiki/Nouri_al-Maliki	PER	NAM	1.0
+MSNBC	EL-577	Times	Wor13259309.txt:2888-2892	http://en.wikipedia.org/wiki/New_York_Times	PER	NAM	1.0
+MSNBC	EL-578	al-Rubaie	Wor13259309.txt:2927-2935	http://en.wikipedia.org/wiki/Mouwafak_al-Rabii	PER	NAM	1.0
+MSNBC	EL-579	AP	Wor13259309.txt:2950-2951	http://en.wikipedia.org/wiki/Associated_Press	PER	NAM	1.0
+MSNBC	EL-580	al-Maliki	Wor13259309.txt:3046-3054	http://en.wikipedia.org/wiki/Nouri_al-Maliki	PER	NAM	1.0
+MSNBC	EL-581	Najaf	Wor13259309.txt:3064-3068	http://en.wikipedia.org/wiki/Najaf	PER	NAM	1.0
+MSNBC	EL-582	Al-Faroon	Wor13259309.txt:3128-3136	http://en.wikipedia.org/wiki/Al-Faroon	PER	NAM	1.0
+MSNBC	EL-583	Saddam	Wor13259309.txt:3377-3382	http://en.wikipedia.org/wiki/Saddam_Hussein	PER	NAM	1.0
+MSNBC	EL-584	Al-Arabiya	Wor13259309.txt:3715-3724	http://en.wikipedia.org/wiki/Al_Arabiya	PER	NAM	1.0
+MSNBC	EL-585	MSNBC	Wor13259309.txt:3852-3856	http://en.wikipedia.org/wiki/MSNBC	PER	NAM	1.0
+MSNBC	EL-586	Saddam	Wor13259309.txt:3998-4003	http://en.wikipedia.org/wiki/Saddam_Hussein	PER	NAM	1.0
+MSNBC	EL-587	Muqtada	Wor13259309.txt:4071-4077	http://en.wikipedia.org/wiki/Muqtada_al-Sadr	PER	NAM	1.0
+MSNBC	EL-588	Muqtada	Wor13259309.txt:4080-4086	http://en.wikipedia.org/wiki/Muqtada_al-Sadr	PER	NAM	1.0
+MSNBC	EL-589	Muqtada	Wor13259309.txt:4089-4095	http://en.wikipedia.org/wiki/Muqtada_al-Sadr	PER	NAM	1.0
+MSNBC	EL-590	Muqtada al-Sadr	Wor13259309.txt:4114-4128	http://en.wikipedia.org/wiki/Muqtada_al-Sadr	PER	NAM	1.0
+MSNBC	EL-591	Mahdi Army	Wor13259309.txt:4178-4187	http://en.wikipedia.org/wiki/Mahdi_Army	PER	NAM	1.0
+MSNBC	EL-592	Sunnis	Wor13259309.txt:4258-4263	http://en.wikipedia.org/wiki/Sunni_Islam	PER	NAM	1.0
+MSNBC	EL-593	Al-Sadr	Wor13259309.txt:4302-4308	http://en.wikipedia.org/wiki/Muqtada_al-Sadr	PER	NAM	1.0
+MSNBC	EL-594	Saddam	Wor13259309.txt:4333-4338	http://en.wikipedia.org/wiki/Saddam_Hussein	PER	NAM	1.0
+MSNBC	EL-595	al-Maliki	Wor13259309.txt:4370-4378	http://en.wikipedia.org/wiki/Nouri_al-Maliki	PER	NAM	1.0
+MSNBC	EL-596	U.S.	Wor13259309.txt:4391-4394	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-597	William Caldwell	Wor13259309.txt:4416-4431	http://en.wikipedia.org/wiki/William_B._Caldwell	PER	NAM	1.0
+MSNBC	EL-598	U.S. military	Wor13259309.txt:4436-4448	http://en.wikipedia.org/wiki/Military_of_the_United_States	PER	NAM	1.0
+MSNBC	EL-599	U.S. forces	Wor13259309.txt:4545-4555	http://en.wikipedia.org/wiki/Military_of_the_United_States	PER	NAM	1.0
+MSNBC	EL-600	Iraq	Wor13259309.txt:4715-4718	http://en.wikipedia.org/wiki/Iraq	PER	NAM	1.0
+MSNBC	EL-601	Saddam	Wor13259309.txt:4756-4761	http://en.wikipedia.org/wiki/Saddam_Hussein	PER	NAM	1.0
+MSNBC	EL-602	US military	Wor13259309.txt:4822-4832	http://en.wikipedia.org/wiki/Military_of_the_United_States	PER	NAM	1.0
+MSNBC	EL-603	Caldwell	Wor13259309.txt:5065-5072	http://en.wikipedia.org/wiki/William_B._Caldwell	PER	NAM	1.0
+MSNBC	EL-604	WASHINGTON	Pol16452612.txt:110-119	http://en.wikipedia.org/wiki/Washington,_D.C.	PER	NAM	1.0
+MSNBC	EL-605	President George W. Bush	Pol16452612.txt:468-491	http://en.wikipedia.org/wiki/George_W._Bush	PER	NAM	1.0
+MSNBC	EL-606	Iraq	Pol16452612.txt:751-754	http://en.wikipedia.org/wiki/Iraq	PER	NAM	1.0
+MSNBC	EL-607	Bush	Pol16452612.txt:862-865	http://en.wikipedia.org/wiki/George_W._Bush	PER	NAM	1.0
+MSNBC	EL-608	Iraq	Pol16452612.txt:892-895	http://en.wikipedia.org/wiki/Iraq	PER	NAM	1.0
+MSNBC	EL-609	Gerald Ford	Pol16452612.txt:1203-1213	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-610	Richard Nixon	Pol16452612.txt:1258-1270	http://en.wikipedia.org/wiki/Richard_Nixon	PER	NAM	1.0
+MSNBC	EL-611	Ford	Pol16452612.txt:1301-1304	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-612	Nixon	Pol16452612.txt:1315-1319	http://en.wikipedia.org/wiki/Richard_Nixon	PER	NAM	1.0
+MSNBC	EL-613	Jimmy Carter	Pol16452612.txt:1379-1390	http://en.wikipedia.org/wiki/Jimmy_Carter	PER	NAM	1.0
+MSNBC	EL-614	Washington	Pol16452612.txt:1433-1442	http://en.wikipedia.org/wiki/Washington,_D.C.	PER	NAM	1.0
+MSNBC	EL-615	American people	Pol16452612.txt:1482-1496	http://en.wikipedia.org/wiki/Demographics_of_the_United_States	PER	NAM	1.0
+MSNBC	EL-616	Washington	Pol16452612.txt:1694-1703	http://en.wikipedia.org/wiki/Washington,_D.c.	PER	NAM	1.0
+MSNBC	EL-617	Washington	Pol16452612.txt:1771-1780	http://en.wikipedia.org/wiki/Washington,_D.c.	PER	NAM	1.0
+MSNBC	EL-618	Evan Bayh	Pol16452612.txt:1908-1916	http://en.wikipedia.org/wiki/Evan_Bayh	PER	NAM	1.0
+MSNBC	EL-619	Indiana	Pol16452612.txt:2075-2081	http://en.wikipedia.org/wiki/Indiana	PER	NAM	1.0
+MSNBC	EL-620	Senate	Pol16452612.txt:2103-2108	http://en.wikipedia.org/wiki/United_States_Senate	PER	NAM	1.0
+MSNBC	EL-621	Bayh	Pol16452612.txt:2223-2226	http://en.wikipedia.org/wiki/Evan_Bayh	PER	NAM	1.0
+MSNBC	EL-622	Washington	Pol16452612.txt:2250-2259	http://en.wikipedia.org/wiki/Washington,_D.C.	PER	NAM	1.0
+MSNBC	EL-623	Dan Pfeiffer	Pol16452612.txt:2291-2302	http://en.wikipedia.org/wiki/Dan_Pfeiffer	PER	NAM	1.0
+MSNBC	EL-624	Bayh	Pol16452612.txt:2320-2323	http://en.wikipedia.org/wiki/Evan_Bayh	PER	NAM	1.0
+MSNBC	EL-625	Pfeiffer	Pol16452612.txt:2610-2617	http://en.wikipedia.org/wiki/Dan_Pfeiffer	PER	NAM	1.0
+MSNBC	EL-626	Boomer	Pol16452612.txt:2689-2694	http://en.wikipedia.org/wiki/Boomer	PER	NAM	1.0
+MSNBC	EL-627	Vietnam	Pol16452612.txt:2795-2801	http://en.wikipedia.org/wiki/Vietnam_War	PER	NAM	1.0
+MSNBC	EL-628	Pfeiffer	Pol16452612.txt:2810-2817	http://en.wikipedia.org/wiki/Dan_Pfeiffer	PER	NAM	1.0
+MSNBC	EL-629	Bush campaign	Pol16452612.txt:2837-2849	http://en.wikipedia.org/wiki/George_W._Bush_presidential_campaign,_2004	PER	NAM	1.0
+MSNBC	EL-630	John Kerry	Pol16452612.txt:2864-2873	http://en.wikipedia.org/wiki/John_Kerry	PER	NAM	1.0
+MSNBC	EL-631	Bush	Pol16452612.txt:2885-2888	http://en.wikipedia.org/wiki/George_W._Bush	PER	NAM	1.0
+MSNBC	EL-632	Bill Clinton	Pol16452612.txt:2954-2965	http://en.wikipedia.org/wiki/Bill_Clinton	PER	NAM	1.0
+MSNBC	EL-633	Pfeiffer	Pol16452612.txt:3022-3029	http://en.wikipedia.org/wiki/Dan_Pfeiffer	PER	NAM	1.0
+MSNBC	EL-634	Positively American	Pol16452612.txt:3443-3461	http://en.wikipedia.org/wiki/Positively_American	PER	NAM	1.0
+MSNBC	EL-635	Charles Schumer	Pol16452612.txt:3469-3483	http://en.wikipedia.org/wiki/Charles_Schumer	PER	NAM	1.0
+MSNBC	EL-636	New York	Pol16452612.txt:3488-3495	http://en.wikipedia.org/wiki/New_York	PER	NAM	1.0
+MSNBC	EL-637	Schumer	Pol16452612.txt:3660-3666	http://en.wikipedia.org/wiki/Charles_Schumer	PER	NAM	1.0
+MSNBC	EL-638	Michigan	Pol16447720.txt:12-19	http://en.wikipedia.org/wiki/Michigan	PER	NAM	1.0
+MSNBC	EL-639	Ford	Pol16447720.txt:37-40	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-640	GRAND RAPIDS	Pol16447720.txt:113-124	http://en.wikipedia.org/wiki/Grand_Rapids,_Michigan	PER	NAM	1.0
+MSNBC	EL-641	Mich.	Pol16447720.txt:127-131	http://en.wikipedia.org/wiki/Michigan	PER	NAM	1.0
+MSNBC	EL-642	Gerald R. Ford	Pol16447720.txt:242-255	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-643	Midwest	Pol16447720.txt:350-356	http://en.wikipedia.org/wiki/Midwestern_United_States	PER	NAM	1.0
+MSNBC	EL-644	Karin Lewis	Pol16447720.txt:431-441	http://en.wikipedia.org/wiki/Karin_Lewis	PER	NAM	1.0
+MSNBC	EL-645	Ford	Pol16447720.txt:492-495	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-646	Ford	Pol16447720.txt:591-594	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-647	Grace Episcopal Church in East Grand Rapids	Pol16447720.txt:662-704	http://en.wikipedia.org/wiki/Grace_Episcopal_Church_in_East_Grand_Rapids	PER	NAM	1.0
+MSNBC	EL-648	Grand River	Pol16447720.txt:775-785	http://en.wikipedia.org/wiki/Grand_River_(Michigan)	PER	NAM	1.0
+MSNBC	EL-649	Donald Rumsfeld	Pol16447720.txt:833-847	http://en.wikipedia.org/wiki/Donald_Rumsfeld	PER	NAM	1.0
+MSNBC	EL-650	Ford	Pol16447720.txt:864-867	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-651	President Jimmy Carter	Pol16447720.txt:963-984	http://en.wikipedia.org/wiki/Jimmy_Carter	PER	NAM	1.0
+MSNBC	EL-652	Ford	Pol16447720.txt:1000-1003	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-653	Richard Norton Smith	Pol16447720.txt:1073-1092	http://en.wikipedia.org/wiki/Richard_Norton_Smith	PER	NAM	1.0
+MSNBC	EL-654	Ford	Pol16447720.txt:1130-1133	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-655	Ford	Pol16447720.txt:1277-1280	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-656	Grand Rapids airport	Pol16447720.txt:1312-1331	http://en.wikipedia.org/wiki/Grand_Rapids_Airport	PER	NAM	1.0
+MSNBC	EL-657	Washington National Cathedral	Pol16447720.txt:1373-1401	http://en.wikipedia.org/wiki/Washington_National_Cathedral	PER	NAM	1.0
+MSNBC	EL-658	Michigan	Pol16447720.txt:1511-1518	http://en.wikipedia.org/wiki/Michigan	PER	NAM	1.0
+MSNBC	EL-659	Jennifer Granholm	Pol16447720.txt:1525-1541	http://en.wikipedia.org/wiki/Jennifer_Granholm	PER	NAM	1.0
+MSNBC	EL-660	Ford	Pol16447720.txt:1551-1554	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-661	Washington	Pol16447720.txt:1629-1638	http://en.wikipedia.org/wiki/Washington_National_Cathedral	PER	NAM	1.0
+MSNBC	EL-662	DeVos Place convention center	Pol16447720.txt:1690-1718	http://en.wikipedia.org/wiki/DeVos_Place_Convention_Center	PER	NAM	1.0
+MSNBC	EL-663	Grand River	Pol16447720.txt:1745-1755	http://en.wikipedia.org/wiki/Grand_River_(Michigan)	PER	NAM	1.0
+MSNBC	EL-664	Gerald R. Ford Presidential Library and Museum	Pol16447720.txt:1764-1809	http://en.wikipedia.org/wiki/Gerald_R._Ford_Presidential_Library	PER	NAM	1.0
+MSNBC	EL-665	University of Michigan	Pol16447720.txt:1900-1921	http://en.wikipedia.org/wiki/University_of_Michigan	PER	NAM	1.0
+MSNBC	EL-666	Ford	Pol16447720.txt:1930-1933	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-667	Wolverines	Pol16447720.txt:1956-1965	http://en.wikipedia.org/wiki/Michigan_Wolverines	PER	NAM	1.0
+MSNBC	EL-668	Grand Rapids	Pol16447720.txt:2051-2062	http://en.wikipedia.org/wiki/Grand_Rapids,_Michigan	PER	NAM	1.0
+MSNBC	EL-669	President Ford	Pol16447720.txt:2069-2082	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-670	Bobbe Taber	Pol16447720.txt:2106-2116	http://en.wikipedia.org/wiki/Bobbe_Taber	PER	NAM	1.0
+MSNBC	EL-671	Kalamazoo	Pol16447720.txt:2144-2152	http://en.wikipedia.org/wiki/Kalamazoo_River	PER	NAM	1.0
+MSNBC	EL-672	Grand Rapids	Pol16447720.txt:2171-2182	http://en.wikipedia.org/wiki/Grand_Rapids,_Michigan	PER	NAM	1.0
+MSNBC	EL-673	Ford	Pol16447720.txt:2191-2194	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-674	Michigan National Guard	Pol16447720.txt:2209-2231	http://en.wikipedia.org/wiki/United_States_National_Guard	PER	NAM	1.0
+MSNBC	EL-675	Lynn Chapp	Pol16447720.txt:2245-2254	http://en.wikipedia.org/wiki/Lynn_Chapp	PER	NAM	1.0
+MSNBC	EL-676	America	Pol16447720.txt:2528-2534	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-677	Washington	Pol16447720.txt:2683-2692	http://en.wikipedia.org/wiki/Washington,_D.C.	PER	NAM	1.0
+MSNBC	EL-678	President Bush	Pol16447720.txt:2720-2733	http://en.wikipedia.org/wiki/George_H._W._Bush	PER	NAM	1.0
+MSNBC	EL-679	NBC	Pol16447720.txt:2772-2774	http://en.wikipedia.org/wiki/NBC	PER	NAM	1.0
+MSNBC	EL-680	Tom Brokaw	Pol16447720.txt:2784-2793	http://en.wikipedia.org/wiki/Tom_Brokaw	PER	NAM	1.0
+MSNBC	EL-681	Ford	Pol16447720.txt:2799-2802	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-682	Henry Kissinger	Pol16447720.txt:2826-2840	http://en.wikipedia.org/wiki/Henry_Kissinger	PER	NAM	1.0
+MSNBC	EL-683	President Ford	Pol16447720.txt:2864-2877	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-684	America	Pol16447720.txt:2906-2912	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-685	America	Pol16447720.txt:2919-2925	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-686	President Bush	Pol16447720.txt:3061-3074	http://en.wikipedia.org/wiki/George_W._Bush	PER	NAM	1.0
+MSNBC	EL-687	Bush	Pol16447720.txt:3071-3074	http://en.wikipedia.org/wiki/George_W._Bush	PER	NAM	1.0
+MSNBC	EL-688	President Bush	Pol16447720.txt:3124-3137	http://en.wikipedia.org/wiki/George_H._W._Bush	PER	NAM	1.0
+MSNBC	EL-689	Norman Rockwell	Pol16447720.txt:3155-3169	http://en.wikipedia.org/wiki/Norman_Rockwell	PER	NAM	1.0
+MSNBC	EL-690	Ford	Pol16447720.txt:3267-3270	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-691	Ford	Pol16447720.txt:3314-3317	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-692	Kissinger	Pol16447720.txt:3440-3448	http://en.wikipedia.org/wiki/Henry_Kissinger	PER	NAM	1.0
+MSNBC	EL-693	Ford	Pol16447720.txt:3466-3469	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-694	Soviets	Pol16447720.txt:3527-3533	http://en.wikipedia.org/wiki/Soviet_Union	PER	NAM	1.0
+MSNBC	EL-695	Israel	Pol16447720.txt:3586-3591	http://en.wikipedia.org/wiki/Israel	PER	NAM	1.0
+MSNBC	EL-696	Egypt	Pol16447720.txt:3597-3601	http://en.wikipedia.org/wiki/Egypt	PER	NAM	1.0
+MSNBC	EL-697	southern Africa	Pol16447720.txt:3641-3655	http://en.wikipedia.org/wiki/southern_Africa	PER	NAM	1.0
+MSNBC	EL-698	Kissinger	Pol16447720.txt:3758-3766	http://en.wikipedia.org/wiki/Henry_Kissinger	PER	NAM	1.0
+MSNBC	EL-699	Gerald Ford	Pol16447720.txt:3775-3785	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-700	America	Pol16447720.txt:3817-3823	http://en.wikipedia.org/wiki/United_States	PER	NAM	1.0
+MSNBC	EL-701	Brokaw	Pol16447720.txt:3830-3835	http://en.wikipedia.org/wiki/Tom_Brokaw	PER	NAM	1.0
+MSNBC	EL-702	Ford	Pol16447720.txt:3861-3864	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-703	Nixon	Pol16447720.txt:4011-4015	http://en.wikipedia.org/wiki/Richard_Nixon	PER	NAM	1.0
+MSNBC	EL-704	Ford	Pol16447720.txt:4039-4042	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-705	Michigan	Pol16447720.txt:4104-4111	http://en.wikipedia.org/wiki/Michigan	PER	NAM	1.0
+MSNBC	EL-706	Grand Rapids airport	Pol16447720.txt:4121-4140	http://en.wikipedia.org/wiki/Grand_Rapids_Airport	PER	NAM	1.0
+MSNBC	EL-707	Ford	Pol16447720.txt:4153-4156	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-708	University of Michigan	Pol16447720.txt:4170-4191	http://en.wikipedia.org/wiki/University_of_Michigan	PER	NAM	1.0
+MSNBC	EL-709	The Victors	Pol16447720.txt:4238-4248	http://en.wikipedia.org/wiki/The_Victors	PER	NAM	1.0
+MSNBC	EL-710	Ford	Pol16447720.txt:4255-4258	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-711	Ford	Pol16447720.txt:4313-4316	http://en.wikipedia.org/wiki/Gerald_Ford	PER	NAM	1.0
+MSNBC	EL-712	Rancho Mirage	Pol16447720.txt:4355-4367	http://en.wikipedia.org/wiki/Rancho_Mirage,_California	PER	NAM	1.0
+MSNBC	EL-713	Calif.	Pol16447720.txt:4370-4375	http://en.wikipedia.org/wiki/California	PER	NAM	1.0
+MSNBC	EL-714	Mars rovers	Tec16454435.txt:20-30	http://en.wikipedia.org/wiki/Mars_Rover	PER	NAM	1.0
+MSNBC	EL-715	LOS ANGELES	Tec16454435.txt:112-122	http://en.wikipedia.org/wiki/Los_Angeles._California	PER	NAM	1.0
+MSNBC	EL-716	Mars rovers	Tec16454435.txt:135-145	http://en.wikipedia.org/wiki/Mars_Rover	PER	NAM	1.0
+MSNBC	EL-717	Red Planet	Tec16454435.txt:420-429	http://en.wikipedia.org/wiki/Mars	PER	NAM	1.0
+MSNBC	EL-718	John Callas	Tec16454435.txt:507-517	http://en.wikipedia.org/wiki/John_Callas	PER	NAM	1.0
+MSNBC	EL-719	Jet Propulsion Laboratory	Tec16454435.txt:557-581	http://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory	PER	NAM	1.0
+MSNBC	EL-720	NASA	Tec16454435.txt:588-591	http://en.wikipedia.org/wiki/NASA	PER	NAM	1.0
+MSNBC	EL-721	Earth	Tec16454435.txt:715-719	http://en.wikipedia.org/wiki/Earth	PER	NAM	1.0
+MSNBC	EL-722	Earth	Tec16454435.txt:1143-1147	http://en.wikipedia.org/wiki/Earth	PER	NAM	1.0
+MSNBC	EL-723	Mars	Tec16454435.txt:1293-1296	http://en.wikipedia.org/wiki/Mars	PER	NAM	1.0
+MSNBC	EL-724	Spirit	Tec16454435.txt:1311-1316	http://en.wikipedia.org/wiki/Spirit_rover	PER	NAM	1.0
+MSNBC	EL-725	Opportunity	Tec16454435.txt:1322-1332	http://en.wikipedia.org/wiki/Opportunity_rover	PER	NAM	1.0
+MSNBC	EL-726	Callas	Tec16454435.txt:1533-1538	http://en.wikipedia.org/wiki/John_Callas	PER	NAM	1.0
+MSNBC	EL-727	Spirit	Tec16454435.txt:1616-1621	http://en.wikipedia.org/wiki/Spirit_rover	PER	NAM	1.0
+MSNBC	EL-728	Opportunity	Tec16454435.txt:1660-1670	http://en.wikipedia.org/wiki/Opportunity_rover	PER	NAM	1.0
+MSNBC	EL-729	Mars	Tec16454435.txt:2040-2043	http://en.wikipedia.org/wiki/Mars	PER	NAM	1.0
+MSNBC	EL-730	Spirit	Tec16454435.txt:2046-2051	http://en.wikipedia.org/wiki/Spirit_rover	PER	NAM	1.0
+MSNBC	EL-731	Opportunity	Tec16454435.txt:2125-2135	http://en.wikipedia.org/wiki/Opportunity_rover	PER	NAM	1.0
+MSNBC	EL-732	Riley	Spo16455207.txt:0-4	http://en.wikipedia.org/wiki/Pat_Riley	PER	NAM	1.0
+MSNBC	EL-733	MIAMI	Spo16455207.txt:111-115	http://en.wikipedia.org/wiki/Miami,_Florida	PER	NAM	1.0
+MSNBC	EL-734	Miami Heat	Spo16455207.txt:119-128	http://en.wikipedia.org/wiki/Miami_Heat	PER	NAM	1.0
+MSNBC	EL-735	Pat Riley	Spo16455207.txt:136-144	http://en.wikipedia.org/wiki/Pat_Riley	PER	NAM	1.0
+MSNBC	EL-736	Heat	Spo16455207.txt:420-423	http://en.wikipedia.org/wiki/Miami_Heat	PER	NAM	1.0
+MSNBC	EL-737	Los Angeles Clippers	Spo16455207.txt:442-461	http://en.wikipedia.org/wiki/Los_Angeles_Clippers	PER	NAM	1.0
+MSNBC	EL-738	Riley	Spo16455207.txt:486-490	http://en.wikipedia.org/wiki/Pat_Riley	PER	NAM	1.0
+MSNBC	EL-739	Heat	Spo16455207.txt:523-526	http://en.wikipedia.org/wiki/Miami_Heat	PER	NAM	1.0
+MSNBC	EL-740	NBA title	Spo16455207.txt:541-549	http://en.wikipedia.org/wiki/NBA_Finals	PER	NAM	1.0
+MSNBC	EL-741	Shaquille O'Neal	Spo16455207.txt:620-635	http://en.wikipedia.org/wiki/Shaquille_O'Neal	PER	NAM	1.0
+MSNBC	EL-742	Riley	Spo16455207.txt:685-689	http://en.wikipedia.org/wiki/Pat_Riley	PER	NAM	1.0
+MSNBC	EL-743	Stan Van Gundy	Spo16455207.txt:741-754	http://en.wikipedia.org/wiki/Stan_Van_Gundy	PER	NAM	1.0
+MSNBC	EL-744	Riley	Spo16455207.txt:826-830	http://en.wikipedia.org/wiki/Pat_Riley	PER	NAM	1.0
+MSNBC	EL-745	Miami Heat	Spo16455207.txt:1013-1022	http://en.wikipedia.org/wiki/Miami_Heat	PER	NAM	1.0
+MSNBC	EL-746	Pat Riley	Spo16455207.txt:1030-1038	http://en.wikipedia.org/wiki/Pat_Riley	PER	NAM	1.0
+MSNBC	EL-747	Riley	Spo16455207.txt:1034-1038	http://en.wikipedia.org/wiki/Pat_Riley	PER	NAM	1.0
+MSNBC	EL-748	Chicago Tribune	Spo16455207.txt:1237-1251	http://en.wikipedia.org/wiki/Chicago_Tribune	PER	NAM	1.0
+MSNBC	EL-749	Riley	Spo16455207.txt:1311-1315	http://en.wikipedia.org/wiki/Pat_Riley	PER	NAM	1.0
+MSNBC	EL-750	Riley	Spo16455207.txt:1360-1364	http://en.wikipedia.org/wiki/Pat_Riley	PER	NAM	1.0
+MSNBC	EL-751	Heat	Spo16455207.txt:1375-1378	http://en.wikipedia.org/wiki/Miami_Heat	PER	NAM	1.0
+MSNBC	EL-752	Shaquille O'Neal	Spo16455207.txt:1387-1402	http://en.wikipedia.org/wiki/Shaquille_O'Neal	PER	NAM	1.0
+MSNBC	EL-753	Western Conference	Spo16455207.txt:1519-1536	http://en.wikipedia.org/wiki/Western_Conference_(NBA)	PER	NAM	1.0
+MSNBC	EL-754	Heat	Spo16455207.txt:1552-1555	http://en.wikipedia.org/wiki/Miami_Heat	PER	NAM	1.0
