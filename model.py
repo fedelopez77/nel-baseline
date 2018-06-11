@@ -4,16 +4,19 @@ class EntityTypeBuilder:
     PERSON = "PER"
     ORGANIZATION = "ORG"
     LOCATION = "LOC"
+    GEO_POLITICAL_ENTITY = "GPE"
+    FACILITY = "FAC"
+
     _entities = {
         "PERSON": PERSON,
         "TITLE": PERSON,
         "ORGANIZATION": ORGANIZATION,
-        "MISC": ORGANIZATION,               ## QUE ES MISC?
+        "MISC": FACILITY,               ## QUE ES MISC?
         "LOCATION": LOCATION,
-        "CITY": LOCATION,
-        "STATE_OR_PROVINCE": LOCATION,
-        "COUNTRY": LOCATION,
-        "NATIONALITY": LOCATION             ## QUE ES NATIONALITY? GPE???
+        "CITY": GEO_POLITICAL_ENTITY,
+        "STATE_OR_PROVINCE": GEO_POLITICAL_ENTITY,
+        "COUNTRY": GEO_POLITICAL_ENTITY,
+        "NATIONALITY": GEO_POLITICAL_ENTITY        ## QUE ES NATIONALITY? GPE???
     }
 
 
@@ -42,6 +45,7 @@ class Mention:
         self.end = int(end)
         self.entity_type = EntityTypeBuilder.get(entity_type)
         self.mention_type = mention_type
+
         self.id = "EL-" + str(Mention._id)
         Mention._id += 1
 
@@ -67,8 +71,9 @@ class Entry:
 
     _id = 0
 
-    def __init__(self, page):
+    def __init__(self, page, https=True):
         self.page = page
+        self.https = https
         self.id = Entry._id
         Entry._id += 1
 
@@ -79,7 +84,9 @@ class Entry:
         if self.is_nil():
             return "NIL" + str(self.id)
         url = self.page.data["url"]
-        return url[:4] + url[5:]    # removes https
+        if self.https:
+            return url
+        return url[:4] + url[5:]    # removes s from https
 
 
 class LinkedMention:

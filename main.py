@@ -82,7 +82,7 @@ def link_mentions(mentions):
     result = []
     for mention in mentions:
         try:
-            entry = Entry(wptools.page(mention.head_string).get_query())
+            entry = Entry(wptools.page(mention.head_string.lower()).get_query())
         except LookupError:
             entry = Entry(None)
 
