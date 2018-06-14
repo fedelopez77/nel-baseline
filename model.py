@@ -63,6 +63,12 @@ class Mention:
             id=self.id, head=self.head_string, doc_id=self.doc_id, begin=self.begin, end=self.end,
             entity=self.entity_type, mention=self.mention_type)
 
+    def __eq__(self, other):
+        return self.id == other.id
+
+    def __hash__(self):
+        return hash(self.id)
+
 
 class Entry:
     """

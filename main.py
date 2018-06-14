@@ -79,6 +79,13 @@ class MentionDetector:
 
 
 def link_mentions(mentions):
+    """
+
+    Esto pasa a recibir un dict de mention:candidates y lo que tiene que hacer es darselo al disambiguator
+
+    :param mentions:
+    :return:
+    """
     result = []
     for mention in mentions:
         try:
@@ -91,11 +98,6 @@ def link_mentions(mentions):
     return result
 
 
-def get_run_id():
-    now = datetime.datetime.now()
-    return now.strftime("%Y%m%d-%H%M%S")
-
-
 def export_linked_mentions(file_name, linked_mentions):
     run_id = get_run_id()
     with open(file_name + ".tab", "w+") as f:
@@ -103,6 +105,11 @@ def export_linked_mentions(file_name, linked_mentions):
             line = "{}\t{}\n".format(run_id, str(linked_mention))
             logger.debug(line)
             f.write(line)
+
+
+def get_run_id():
+    now = datetime.datetime.now()
+    return now.strftime("%Y%m%d-%H%M%S")
 
 
 if __name__ == "__main__":
@@ -133,6 +140,9 @@ if __name__ == "__main__":
     for ner_file in ner_files:
         md = MentionDetector(ner_file)
         mentions.extend(md.get_mentions())
+
+    logger.info("Geenrating candidates for mentions")
+    linked_mentions = link_mentions(mentions)
 
     logger.info("Linking mentions to wikipedia articles")
     linked_mentions = link_mentions(mentions)
