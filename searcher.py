@@ -7,30 +7,39 @@ from whoosh.index import create_in, open_dir
 from whoosh.qparser import QueryParser
 from whoosh.query import *
 
-# source: target
-docs = {
-    'AbacuS, foo, bar, baz': 'Abacus',
-    'AbalonE': 'Abalone',
-    'AccessibleComputing': 'Computer accessibility',
-    'AfghanistanCommunications': 'Communications in Afghanistan',
-    'AfghanistanGeography': 'Geography of Afghanistan',
-    'AfghanistanHistory': 'History of Afghanistan',
-    'AfghanistanMilitary': 'Afghan Armed Forces',
-    'AfghanistanPeople': 'Demographics of Afghanistan',
-    'AfghanistanTransnationalIssues': 'Foreign relations of Afghanistan',
-    'AfghanistanTransportations': 'Transport in Afghanistan',
-    'AfroAsiaticLanguages': 'Afroasiatic languages',
-    'AlbaniaEconomy': 'Economy of Albania',
-    'AlbaniaGovernment': 'Politics of Albania',
-    'AlbaniaHistory': 'History of Albania',
-    'AlbaniaPeople': 'Demographics of Albania',
-    'AmoeboidTaxa': 'Amoeba',
-    'ArtificalLanguages': 'Constructed language',
-    'AsWeMayThink': 'As We May Think',
-    'AssistiveTechnology': 'Assistive technology'
-}
 
 INDEX_PATH = "index"
+ARTICLES_PATH = "articles.tsv"
+REDIRECTS_PATH = "redirects.tsv"
+REDIRECTS_KEY = "redirects"
+
+
+def get_titles():
+    titles = {}
+    with open(ARTICLES_PATH, "r") as f:
+        for line in f:
+            art_id, title = line.split("\t")
+            if title in titles:
+                print("Repited title: {}".format(title))
+
+            titles[title] = {"id": id}
+
+    return titles
+
+
+def update_with_redirects(titles):
+    with open(REDIRECTS_PATH, "r") as f:
+        for line in f:
+            redir_id, redirect, title = line.split("\t")
+
+            if title in titles:
+                value = titles[title]
+                if REDIRECTS_KEY in value:
+                    value[REDIRECTS_KEY].append(redirect)
+                else:
+                    value[REDIRECTS_KEY] = [redirect]
+
+    return titles
 
 
 def create_schema():
@@ -51,17 +60,27 @@ def add_documents_to_index(documents, index_dir):
 
     writer = ix.writer()
 
-    for redirect, title in documents.items():
-        # Falta write id
-        writer.add_document(title=title, redirects=redirect)
+    for title in documents:
+        value = documents[title]
+
+        if REDIRECTS_KEY in value:
+            redirects = ",".join(value[REDIRECTS_KEY])
+            writer.add_document(title=title, id=value["id"], redirects=redirects)
+        else:
+            writer.add_document(title=title, id=value["id"])
 
     writer.commit()
 
 
 def build_index():
-    if not os.path.exists(INDEX_PATH):
-        create_index(INDEX_PATH)
-        add_documents_to_index(docs, INDEX_PATH)
+    if os.path.exists(INDEX_PATH):
+        raise FileExistsError("{} already exists".format(INDEX_PATH))
+
+    create_index(INDEX_PATH)
+
+    titles = get_titles()
+    update_with_redirects(titles)
+    add_documents_to_index(titles, INDEX_PATH)
 
 
 def get_candidates_for_head_string(head_string, searcher, query_parsers):
