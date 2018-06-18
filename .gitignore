@@ -116,6 +116,7 @@ dataset/ace2004/
 dataset/tac15/
 named_entities/tac_eval_15/
 named_entities/ace2004/
+wikidumps/
 
 # evaluation output
 output/

@@ -2,6 +2,7 @@
 import os.path
 from six import u as unicode
 from collections import OrderedDict
+import codecs
 from whoosh.fields import Schema, TEXT, KEYWORD, ID
 from whoosh.index import create_in, open_dir
 from whoosh.qparser import QueryParser
@@ -9,18 +10,18 @@ from whoosh.query import *
 
 
 INDEX_PATH = "index"
-ARTICLES_PATH = "articles.tsv"
-REDIRECTS_PATH = "redirects.tsv"
+ARTICLES_PATH = "wikidumps/articles.tsv"
+REDIRECTS_PATH = "wikidumps/redirects.tsv"
 REDIRECTS_KEY = "redirects"
 
 
 def get_titles():
     titles = {}
-    with open(ARTICLES_PATH, "r") as f:
+    with codecs.open(ARTICLES_PATH, "r", "utf-8") as f:
         for line in f:
             art_id, title = line.split("\t")
             if title in titles:
-                print("Repited title: {}".format(title))
+                print("Repeated title: {}".format(title))
 
             titles[title] = {"id": id}
 
@@ -28,7 +29,7 @@ def get_titles():
 
 
 def update_with_redirects(titles):
-    with open(REDIRECTS_PATH, "r") as f:
+    with codecs.open(REDIRECTS_PATH, "r", "utf-8") as f:
         for line in f:
             redir_id, redirect, title = line.split("\t")
 
@@ -38,6 +39,8 @@ def update_with_redirects(titles):
                     value[REDIRECTS_KEY].append(redirect)
                 else:
                     value[REDIRECTS_KEY] = [redirect]
+            else:
+                print("Target title of redirect not present: {} -> {}".format(redirect, title))
 
     return titles
 
@@ -73,6 +76,9 @@ def add_documents_to_index(documents, index_dir):
 
 
 def build_index():
+    """
+    *API call* to build the index
+    """
     if os.path.exists(INDEX_PATH):
         raise FileExistsError("{} already exists".format(INDEX_PATH))
 
@@ -98,7 +104,7 @@ def get_candidates_for_head_string(head_string, searcher, query_parsers):
     # * La jerarquía de los parsers
     # * el limite de candidatos que devuelvo
 
-    candidates = OrderedDict()
+    candidates = OrderedDict()      # I add the results to an ordered dict so I can filter repetitions
     for parser in query_parsers:
         query = parser.parse(head_string)
         results = searcher.search(query)
@@ -124,47 +130,4 @@ def get_candidates(strings):
     return heads_and_candidates
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+build_index()

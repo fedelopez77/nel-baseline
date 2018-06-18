@@ -4,3 +4,8 @@
 
 La idea es que el disambiguator, por ahora, solo linkee el pageid a la url del artículo
 """
+
+import requests
+from model import Entry
+
+def disambiguate(heads_and_mentions):

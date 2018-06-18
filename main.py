@@ -13,9 +13,10 @@ from os import listdir
 from os.path import join
 from sys import exit
 import xml.etree.ElementTree as ET
-import wptools
 from model import Mention, Entry, LinkedMention
 from ner import detect as apply_ner
+from searcher import get_candidates
+from disambiguator import disambiguate
 
 # create logger
 logger = logging.getLogger(__name__)
@@ -78,24 +79,9 @@ class MentionDetector:
         return head_string, end
 
 
-def link_mentions(mentions):
-    """
-
-    Esto pasa a recibir un dict de mention:candidates y lo que tiene que hacer es darselo al disambiguator
-
-    :param mentions:
-    :return:
-    """
-    result = []
-    for mention in mentions:
-        try:
-            entry = Entry(wptools.page(mention.head_string.lower()).get_query())
-        except LookupError:
-            entry = Entry(None)
-
-        result.append(LinkedMention(mention, entry))
-
-    return result
+def link_mentions(mentions, heads_and_candidates):
+    heads_and_entries = disambiguate(heads_and_candidates)
+    return [LinkedMention(mention, heads_and_entries[mention]) for mention in mentions]
 
 
 def export_linked_mentions(file_name, linked_mentions):
@@ -141,11 +127,11 @@ if __name__ == "__main__":
         md = MentionDetector(ner_file)
         mentions.extend(md.get_mentions())
 
-    logger.info("Geenrating candidates for mentions")
-    linked_mentions = link_mentions(mentions)
+    logger.info("Generating candidates for mentions")
+    heads_and_candidates = get_candidates([m.head_string for m in mentions])
 
     logger.info("Linking mentions to wikipedia articles")
-    linked_mentions = link_mentions(mentions)
+    linked_mentions = link_mentions(mentions, heads_and_candidates)
 
     logger.info("Exporting mentions to tab file")
     export_linked_mentions("res-"+get_run_id(), linked_mentions)
