@@ -117,19 +117,22 @@ def get_candidates_for_head_string(head_string, searcher, query_parsers):
     # * La jerarquía de los parsers
     # * el limite de candidatos que devuelvo
 
-    candidates = OrderedDict()      # I add the results to an ordered dict so I can filter repetitions
+    candidates = OrderedDict()      # I add the results to an ordered dict so I can keep the order and filter repetitions
     for parser in query_parsers:
         query = parser.parse(head_string)
         results = searcher.search(query)
+
         for hit in results:
-            candidates[hit["title"]] = None    # ver si pongo titles, ids o que
-    return list(candidates.keys())
+            candidates[hit["title"]] = hit["id"]
+
+    return list(candidates.items())
 
 
 def get_candidates(mentions):
     """
     :param mentions: <list>
     """
+
     ix = open_dir(INDEX_PATH)
     with ix.searcher() as searcher:
         title_qp = QueryParser("title", schema=ix.schema)
@@ -139,4 +142,5 @@ def get_candidates(mentions):
             mention.candidates = get_candidates_for_head_string(mention.head_string, searcher, parsers)
 
 
-build_index()
+if __name__ == "__main__":
+    build_index()

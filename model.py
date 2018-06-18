@@ -73,7 +73,7 @@ class Mention:
 
 class Entry:
     """
-    It models the entry in a given knowledge base. For now it is just a wrapper for wptools.page.WPToolsPage
+    It models the entry in a given knowledge base.
     """
 
     _id = 0
@@ -90,10 +90,9 @@ class Entry:
     def __str__(self):
         if self.is_nil():
             return "NIL" + str(self.id)
-        url = self.page.data["url"]
         if self.https:
-            return url
-        return url[:4] + url[5:]    # removes s from https
+            return self.page
+        return self.page[:4] + self.page[5:]    # removes s from https
 
 
 class LinkedMention:

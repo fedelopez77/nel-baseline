@@ -79,9 +79,9 @@ class MentionDetector:
         return head_string, end
 
 
-def link_mentions(mentions, heads_and_candidates):
-    heads_and_entries = disambiguate(heads_and_candidates)
-    return [LinkedMention(mention, heads_and_entries[mention]) for mention in mentions]
+def link_mentions(mentions):
+    mentions_and_entries = disambiguate(mentions)
+    return [LinkedMention(mention, mentions_and_entries[mention]) for mention in mentions]
 
 
 def export_linked_mentions(file_name, linked_mentions):
@@ -131,7 +131,7 @@ if __name__ == "__main__":
     get_candidates(mentions)
 
     logger.info("Linking mentions to wikipedia articles")
-    linked_mentions = link_mentions(mentions, heads_and_candidates)
+    linked_mentions = link_mentions(mentions)
 
     logger.info("Exporting mentions to tab file")
     export_linked_mentions("res-"+get_run_id(), linked_mentions)
