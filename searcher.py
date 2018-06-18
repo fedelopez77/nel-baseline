@@ -19,11 +19,11 @@ def get_titles():
     titles = {}
     with codecs.open(ARTICLES_PATH, "r", "utf-8") as f:
         for line in f:
-            art_id, title = line.split("\t")
+            art_id, title = line.strip().split("\t")
             if title in titles:
                 print("Repeated title: {}".format(title))
 
-            titles[title] = {"id": id}
+            titles[title] = {"id": art_id}
 
     return titles
 
@@ -31,7 +31,11 @@ def get_titles():
 def update_with_redirects(titles):
     with codecs.open(REDIRECTS_PATH, "r", "utf-8") as f:
         for line in f:
-            redir_id, redirect, title = line.split("\t")
+
+            line = line.strip().split("\t")
+            if len(line) != 3: continue
+
+            redir_id, redirect, title = line
 
             if title in titles:
                 value = titles[title]
@@ -40,7 +44,8 @@ def update_with_redirects(titles):
                 else:
                     value[REDIRECTS_KEY] = [redirect]
             else:
-                print("Target title of redirect not present: {} -> {}".format(redirect, title))
+                # print("Target title of redirect not present: {} -> {}".format(redirect, title))
+                pass
 
     return titles
 
@@ -63,6 +68,9 @@ def add_documents_to_index(documents, index_dir):
 
     writer = ix.writer()
 
+    print("Len(documents) = {}".format(len(documents)))
+    i = 0
+
     for title in documents:
         value = documents[title]
 
@@ -71,6 +79,11 @@ def add_documents_to_index(documents, index_dir):
             writer.add_document(title=title, id=value["id"], redirects=redirects)
         else:
             writer.add_document(title=title, id=value["id"])
+
+        i += 1
+
+        if i % 100000 == 0:
+            print("{} docs processed".format(i))
 
     writer.commit()
 
@@ -113,21 +126,17 @@ def get_candidates_for_head_string(head_string, searcher, query_parsers):
     return list(candidates.keys())
 
 
-def get_candidates(strings):
+def get_candidates(mentions):
     """
-    :param strings: <list> of head strings from mentions
-    :return: dictionary of head_string:candidates<list>
+    :param mentions: <list>
     """
     ix = open_dir(INDEX_PATH)
-    heads_and_candidates = {}
     with ix.searcher() as searcher:
         title_qp = QueryParser("title", schema=ix.schema)
         redirects_qp = QueryParser("redirects", schema=ix.schema)
         parsers = [title_qp, redirects_qp]
-        for head_string in strings:
-            heads_and_candidates[head_string] = get_candidates_for_head_string(head_string, searcher, parsers)
-
-    return heads_and_candidates
+        for mention in mentions:
+            mention.candidates = get_candidates_for_head_string(mention.head_string, searcher, parsers)
 
 
 build_index()

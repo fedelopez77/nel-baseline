@@ -128,7 +128,7 @@ if __name__ == "__main__":
         mentions.extend(md.get_mentions())
 
     logger.info("Generating candidates for mentions")
-    heads_and_candidates = get_candidates([m.head_string for m in mentions])
+    get_candidates(mentions)
 
     logger.info("Linking mentions to wikipedia articles")
     linked_mentions = link_mentions(mentions, heads_and_candidates)

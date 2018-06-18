@@ -9,3 +9,7 @@ import requests
 from model import Entry
 
 def disambiguate(heads_and_mentions):
+    """
+    :param heads_and_mentions:
+    :return:
+    """

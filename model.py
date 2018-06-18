@@ -45,6 +45,7 @@ class Mention:
         self.end = int(end)
         self.entity_type = EntityTypeBuilder.get(entity_type)
         self.mention_type = mention_type
+        self.candidates = []
 
         self.id = "EL-" + str(Mention._id)
         Mention._id += 1
