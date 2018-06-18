@@ -21,7 +21,7 @@ def disambiguate(mentions):
 
     mentions_and_entries = {}
     for mention in mentions:
-        main_candidate_id = mention.candidates[0][1]
+        main_candidate_id = mention.candidates[0][1] if len(mention.candidates) > 0 else None
 
         if main_candidate_id is None or main_candidate_id not in wiki_urls:
             entry = Entry(None)
