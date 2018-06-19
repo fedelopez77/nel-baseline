@@ -66,7 +66,7 @@ def create_index(index_dir="index"):
 def add_documents_to_index(documents, index_dir):
     ix = open_dir(index_dir)
 
-    writer = ix.writer()
+    writer = ix.writer(procs=4, batchsize=4096, limitmb=4096)
 
     logger.info("Documents to index: {}".format(len(documents)))
     i = 0

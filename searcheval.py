@@ -27,11 +27,19 @@ def get_candidates(head_strings):
     mentions = [Mention(string, None, 0, 0, "PERSON") for string in head_strings]
     search_for_candidates(mentions)
 
+    candidate_urls = {}
 
+    wiki_ids = set()
+    for mention in mentions:
+        for cand in mention.candidates:
+            wiki_ids.add(cand[1])
 
-    mentions_and_entries = disambiguate(mentions)
+    wiki_urls = get_wiki_urls(list(wiki_ids))
 
-    return {mention.head_string: mention.candidates for mention in mentions_and_entries}
+    for mention in mentions:
+        candidate_urls[mention.head_string] = [wiki_urls[candidate[1]] for candidate in mention.candidates]
+
+    return candidate_urls
 
 
 def eval(golds, candidates, at_n):
@@ -70,11 +78,11 @@ def eval(golds, candidates, at_n):
     total_at_n_precision = float(nil_correct + link_at_n_correct) / (nil_total + link_total)
     total_at_all_precision = float(nil_correct + link_at_all_correct) / (nil_total + link_total)
 
-    print("Nil Precision:\t{}".format(nil_precision))
-    print("Precision@{}:\t{}".format(at_n, link_at_n_precision))
-    print("Precision@all:\t{}".format(link_at_all_precision))
-    print("Total P@{}:\t{}".format(at_n, total_at_n_precision))
-    print("Total P@all:\t{}".format(total_at_all_precision))
+    print("Nil Precision:\t{0:.3f}".format(nil_precision))
+    print("Precision@{a}:\t{b:.3f}".format(a=at_n, b=link_at_n_precision))
+    print("Precision@all:\t{0:.3f}".format(link_at_all_precision))
+    print("Total P@{a}:\t{b:.3f}".format(a=at_n, b=total_at_n_precision))
+    print("Total P@all:\t{0:.3f}".format(total_at_all_precision))
 
 
 if __name__ == "__main__":

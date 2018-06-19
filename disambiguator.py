@@ -42,6 +42,7 @@ def get_wiki_urls(wiki_ids):
     for i in range(0, len(wiki_ids), batch_size):
         candidates_ids_batch = wiki_ids[i:i + batch_size]
         request_url = REQUEST_URL.format(ids="|".join(candidates_ids_batch))
+
         r = requests.get(request_url)
 
         for page in r.json()["query"]["pages"]:
