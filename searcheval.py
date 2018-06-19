@@ -49,10 +49,11 @@ def get_candidates(head_strings):
 
 def eval(golds, candidates, at_n):
     nil_correct = 0
-    nil_total = 0
+    nil_total = 0               # total of *relevant*
     link_at_n_correct = 0
     link_at_all_correct = 0
-    link_total = 0
+    link_total = 0              # total of *relevant*
+                                # since the denominator is the *relevant* links, then the metric is recall
 
     for string in golds:
         if string not in candidates:
@@ -77,21 +78,21 @@ def eval(golds, candidates, at_n):
 
     assert nil_total + link_total == len(golds)
 
-    nil_precision = float(nil_correct) / nil_total if nil_total != 0 else 0
-    link_at_n_precision = float(link_at_n_correct) / link_total
-    link_at_all_precision = float(link_at_all_correct) / link_total
-    total_at_n_precision = float(nil_correct + link_at_n_correct) / (nil_total + link_total)
-    total_at_all_precision = float(nil_correct + link_at_all_correct) / (nil_total + link_total)
+    nil_recall = float(nil_correct) / nil_total if nil_total != 0 else 0
+    link_at_n_recall = float(link_at_n_correct) / link_total
+    link_at_all_recall = float(link_at_all_correct) / link_total
+    total_at_n_recall = float(nil_correct + link_at_n_correct) / (nil_total + link_total)
+    total_at_all_recall = float(nil_correct + link_at_all_correct) / (nil_total + link_total)
 
-    print("Nil Precision:\t{0:.3f}".format(nil_precision))
-    print("Precision@{a}:\t{b:.3f}".format(a=at_n, b=link_at_n_precision))
-    print("Precision@all:\t{0:.3f}".format(link_at_all_precision))
-    print("Total P@{a}:\t{b:.3f}".format(a=at_n, b=total_at_n_precision))
-    print("Total P@all:\t{0:.3f}".format(total_at_all_precision))
+    print("Nil Recall:\t{0:.3f}".format(nil_recall))
+    print("Recall@{a}:\t{b:.3f}".format(a=at_n, b=link_at_n_recall))
+    print("Recall@all:\t{0:.3f}".format(link_at_all_recall))
+    print("Total R@{a}:\t{b:.3f}".format(a=at_n, b=total_at_n_recall))
+    print("Total R@all:\t{0:.3f}".format(total_at_all_recall))
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Executes Search evaluation. Computes precision@n')
+    parser = argparse.ArgumentParser(description='Executes Search evaluation. Computes recall@n')
     parser.add_argument('-g', '--gold', help='File with gold links')
     parser.add_argument('-n', '--atn', help='n from precision@n', default=5)
 
