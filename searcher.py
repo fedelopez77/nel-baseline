@@ -120,7 +120,7 @@ def get_candidates_for_head_string(head_string, searcher, query_parsers):
     candidates = OrderedDict()      # I add the results to an ordered dict so I can keep the order and filter repetitions
     for parser in query_parsers:
         query = parser.parse(head_string)
-        results = searcher.search(query)
+        results = searcher.search(query, limit=25)
 
         for hit in results:
             candidates[hit["title"]] = hit["id"]

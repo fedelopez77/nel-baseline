@@ -45,7 +45,12 @@ def get_wiki_urls(wiki_ids):
 
         r = requests.get(request_url)
 
-        for page in r.json()["query"]["pages"]:
-            wiki_urls[str(page["pageid"])] = page["canonicalurl"]
+        try:
+            for page in r.json()["query"]["pages"]:
+                if "missing" not in page:
+                    wiki_urls[str(page["pageid"])] = page["canonicalurl"]
+        except (KeyError, ValueError) as e:
+            print("Request URL: {}".format(request_url))
+            raise e
 
     return wiki_urls

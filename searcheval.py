@@ -6,6 +6,8 @@ from disambiguator import get_wiki_urls
 
 
 def get_gold_links(filename):
+    print("Getting gold links from: {}".format(filename))
+
     golds = {}
 
     with open(filename, "r") as f:
@@ -15,7 +17,7 @@ def get_gold_links(filename):
 
             head_string, link = line[2], line[4]
 
-            if link[4] != "s":
+            if link[0:3] != "NIL" and link[4] != "s":
                 link = link[:4] + "s" + link[4:]
 
             golds[head_string] = link
@@ -25,6 +27,8 @@ def get_gold_links(filename):
 
 def get_candidates(head_strings):
     mentions = [Mention(string, None, 0, 0, "PERSON") for string in head_strings]
+
+    print("Searching for candidates on index")
     search_for_candidates(mentions)
 
     candidate_urls = {}
@@ -34,10 +38,11 @@ def get_candidates(head_strings):
         for cand in mention.candidates:
             wiki_ids.add(cand[1])
 
+    print("Searching for IDs on Wikipedia")
     wiki_urls = get_wiki_urls(list(wiki_ids))
 
     for mention in mentions:
-        candidate_urls[mention.head_string] = [wiki_urls[candidate[1]] for candidate in mention.candidates]
+        candidate_urls[mention.head_string] = [wiki_urls[candidate[1]] for candidate in mention.candidates if candidate[1] in wiki_urls]
 
     return candidate_urls
 
