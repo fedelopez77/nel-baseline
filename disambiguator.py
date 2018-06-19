@@ -17,7 +17,8 @@ def disambiguate(mentions):
     :param mentions:
     :return: dict {mention: entry}
     """
-    wiki_urls = get_wiki_urls(mentions)
+    main_candidates_ids = [mention.candidates[0][1] for mention in mentions if len(mention.candidates) > 0]
+    wiki_urls = get_wiki_urls(main_candidates_ids)
 
     mentions_and_entries = {}
     for mention in mentions:
@@ -33,14 +34,13 @@ def disambiguate(mentions):
     return mentions_and_entries
 
 
-def get_wiki_urls(mentions):
+def get_wiki_urls(wiki_ids):
     # No limpio repetidos porq paja, y porq eventualmente coreference deberia resolverlo
-    main_candidates_ids = [mention.candidates[0][1] for mention in mentions if len(mention.candidates) > 0]
     wiki_urls = {}
 
     batch_size = 50
-    for i in range(0, len(mentions), batch_size):
-        candidates_ids_batch = main_candidates_ids[i:i + batch_size]
+    for i in range(0, len(wiki_ids), batch_size):
+        candidates_ids_batch = wiki_ids[i:i + batch_size]
         request_url = REQUEST_URL.format(ids="|".join(candidates_ids_batch))
         r = requests.get(request_url)
 

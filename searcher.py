@@ -1,6 +1,5 @@
 
 import os.path
-from six import u as unicode
 from collections import OrderedDict
 import codecs
 from whoosh.fields import Schema, TEXT, KEYWORD, ID
@@ -8,6 +7,8 @@ from whoosh.index import create_in, open_dir
 from whoosh.qparser import QueryParser
 from whoosh.query import *
 
+import logging
+logger = logging.getLogger(__name__)
 
 INDEX_PATH = "index"
 ARTICLES_PATH = "wikidumps/articles.tsv"
@@ -21,7 +22,7 @@ def get_titles():
         for line in f:
             art_id, title = line.strip().split("\t")
             if title in titles:
-                print("Repeated title: {}".format(title))
+                logger.debug("Repeated title: {}".format(title))
 
             titles[title] = {"id": art_id}
 
@@ -44,8 +45,7 @@ def update_with_redirects(titles):
                 else:
                     value[REDIRECTS_KEY] = [redirect]
             else:
-                # print("Target title of redirect not present: {} -> {}".format(redirect, title))
-                pass
+                logger.debug("Target title of redirect not present: {} -> {}".format(redirect, title))
 
     return titles
 
@@ -68,7 +68,7 @@ def add_documents_to_index(documents, index_dir):
 
     writer = ix.writer()
 
-    print("Len(documents) = {}".format(len(documents)))
+    logger.info("Documents to index: {}".format(len(documents)))
     i = 0
 
     for title in documents:
@@ -83,7 +83,7 @@ def add_documents_to_index(documents, index_dir):
         i += 1
 
         if i % 100000 == 0:
-            print("{} docs processed".format(i))
+            logger.info("{} docs processed".format(i))
 
     writer.commit()
 
@@ -132,8 +132,10 @@ def get_candidates(mentions):
     """
     :param mentions: <list>
     """
-
+    logger.info("Opening index")
     ix = open_dir(INDEX_PATH)
+    logger.info("Index open")
+
     with ix.searcher() as searcher:
         title_qp = QueryParser("title", schema=ix.schema)
         redirects_qp = QueryParser("redirects", schema=ix.schema)

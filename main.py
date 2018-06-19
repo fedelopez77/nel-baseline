@@ -9,6 +9,7 @@ If it doesn't, it classifies the entity as NIL.
 import datetime
 import argparse
 import logging
+import sys
 from os import listdir
 from os.path import join
 from sys import exit
@@ -19,13 +20,12 @@ from searcher import get_candidates
 from disambiguator import disambiguate
 
 # create logger
-logger = logging.getLogger(__name__)
+logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
 # create console handler and set level to debug
-ch = logging.StreamHandler()
+ch = logging.StreamHandler(sys.stdout)
 ch.setLevel(logging.DEBUG)
-
 ch.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
 logger.addHandler(ch)
 
